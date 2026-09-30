@@ -34,12 +34,12 @@ CALL_TIMEOUT_SECONDS = 120
 DESCRIPTION_MAX_BYTES = 7999
 
 LANGUAGE_CODES = {
-    "EN": "english", "FR": "french", "DE": "german", "ES": "spanish", "ES_MX": "latam",
-    "ES_CL": "latam", "AR": "latam", "PT": "portuguese", "PTBR": "brazilian", "IT": "italian",
-    "NL": "dutch", "DA": "danish", "FI": "finnish", "NO": "norwegian", "PL": "polish",
-    "CS": "czech", "HU": "hungarian", "RO": "romanian", "RU": "russian", "UA": "ukrainian",
-    "TR": "turkish", "TH": "thai", "ID": "indonesian", "JP": "japanese", "KO": "koreana",
-    "CN": "schinese", "CH": "tchinese",
+    "EN": "english", "CN": "schinese", "CH": "tchinese", "JP": "japanese", "KO": "koreana",
+    "TH": "thai", "ID": "indonesian", "MS": "malay", "BG": "bulgarian", "CS": "czech",
+    "DA": "danish", "DE": "german", "ES": "spanish", "LATAM": "latam", "EL": "greek",
+    "FR": "french", "IT": "italian", "HU": "hungarian", "NL": "dutch", "NO": "norwegian",
+    "PL": "polish", "PT": "portuguese", "PTBR": "brazilian", "RO": "romanian", "RU": "russian",
+    "FI": "finnish", "SV": "swedish", "TR": "turkish", "VI": "vietnamese", "UA": "ukrainian",
 }
 
 

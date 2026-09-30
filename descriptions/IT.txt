@@ -1,0 +1,37 @@
+Tile Doctor è uno strumento di sviluppo e debug. Ti permette di vedere cosa si trova davvero sulle tile intorno al tuo personaggio e di sistemare quelle rotte: collisioni invisibili, residui di mod rimossi, oggetti che non si possono più raccogliere o usare.
+
+Fai clic destro in un punto qualsiasi e scegli Tile Doctor. Si apre una finestra con una tabella di tutto ciò che si trova sulle 9 tile intorno al tuo personaggio, e un contorno giallo mostra nel mondo l'area analizzata. La tabella ti segue mentre ti muovi.
+
+Per ogni oggetto, cadavere e veicolo mostra:
+- La tile su cui si trova
+- Il tipo e il nome
+- La sua tile, o il tipo di oggetto per gli oggetti a terra
+- Le proprietà di collisione e di struttura
+- Un avviso rosso quando qualcosa sembra rotto (tile mancante, tile di un mod rimosso, oggetto invisibile)
+
+Passa il mouse su una riga per evidenziare quell'oggetto nel mondo. Attenzione: il contorno può essere nascosto quando un muro o qualcos'altro blocca la visuale tra te e l'oggetto.
+
+Azioni disponibili su ogni riga:
+- Elimina: rimuove solo quell'oggetto, cadavere, oggetto a terra o veicolo. Un pavimento eliminato viene sostituito da terra, da un pavimento di legno ai piani superiori o dalla stessa tile d'acqua, così non ti ritrovi mai con un buco.
+- Reimposta: ricostruisce l'oggetto da zero, come se fosse appena stato piazzato. La tile e le finiture (carta da parati, vernice, modanature) vengono mantenute, il suo stato torna neutro: una cucina si spegne, una porta si chiude, un contenitore torna vuoto.
+
+Ogni azione chiede prima una conferma e ti avvisa quando un contenitore perderà il suo contenuto.
+
+[h2]Importante[/h2]
+Questo è uno strumento di debug: eliminare o reimpostare oggetti non si può annullare. Usalo con consapevolezza e, se hai dubbi, tieni un backup del tuo salvataggio.
+
+Ovviamente non ho potuto testare ogni singolo scenario: in questo gioco c'è una quantità assurda di tile, oggetti e item, e senza nemmeno parlare dei mod. Se qualcosa non si comporta come previsto, un reset che va storto, un oggetto che dovrebbe essere segnalato e non lo è, o qualsiasi altra cosa, fammelo sapere nella sezione commenti e farò del mio meglio per gestirlo.
+
+[h2]Domande e risposte[/h2]
+Q: Funziona in multiplayer?
+A: Sì. In giocatore singolo chiunque può usarlo. In multiplayer è riservato agli admin e ogni azione viene verificata dal server.
+
+Q: Può riportare una tile a com'era in origine sulla mappa?
+A: No. I dati originali della mappa sono leggibili solo dal motore di gioco. Tile Doctor lavora su ciò che si trova attualmente sulle tile.
+
+Q: Ho trovato un caso che non gestisce, cosa devo fare?
+A: Scrivilo nella sezione commenti con le colonne "Tipo" e "Tile / oggetto" della riga in questione, il mod da cui pensi che provenga se è il caso e, se possibile, l'errore dal tuo console.txt (in C:\Users\TuoNome\Zomboid).
+
+Il mod è disponibile in 29 lingue.
+
+Sentiti libero di condividere feedback, segnalazioni di bug e idee nella sezione commenti, leggo tutto.

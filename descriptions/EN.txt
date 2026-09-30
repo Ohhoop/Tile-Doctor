@@ -30,7 +30,7 @@ Q: Can it restore a tile to how the map originally looked?
 A: No. The original map data is only readable by the game engine. Tile Doctor works on what is currently on the tiles.
 
 Q: I found a case it does not handle, what should I do?
-A: Post it in the comment section with the Type and Tile columns of the row in question, the mod you think it comes from if applicable and, if possible, the error from your console.txt (in C:\Users\YourName\Zomboid).
+A: Post it in the comment section with the "Type" and "Tile / item" columns of the row in question, the mod you think it comes from if applicable and, if possible, the error from your console.txt (in C:\Users\YourName\Zomboid).
 
 The mod is available in 29 languages.
 

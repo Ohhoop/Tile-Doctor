@@ -1,0 +1,37 @@
+Tile Doctor este un instrument de dezvoltare și depanare. Îți arată ce se află cu adevărat pe dalele din jurul personajului tău și îți permite să le repari pe cele stricate: coliziuni invizibile, resturi de la moduri eliminate, obiecte care nu mai pot fi luate sau folosite.
+
+Dă clic dreapta oriunde și alege Tile Doctor. Se deschide o fereastră cu un tabel cu tot ce se află pe cele 9 dale din jurul personajului tău, iar un contur galben arată zona scanată în lume. Tabelul te urmează în timp ce te deplasezi.
+
+Pentru fiecare obiect, cadavru și vehicul afișează:
+- Dala pe care se află
+- Tipul și numele
+- Dala sa, sau tipul de obiect pentru obiectele de pe jos
+- Proprietățile de coliziune și de structură
+- O alertă roșie când ceva pare stricat (dală lipsă, dală dintr-un mod eliminat, obiect invizibil)
+
+Treci cu mouse-ul peste un rând pentru a evidenția acel obiect în lume. Atenție: conturul poate fi ascuns când un perete sau altceva blochează vederea dintre tine și obiect.
+
+Acțiuni posibile pe fiecare rând:
+- Șterge: elimină doar acel obiect, cadavru, obiect de pe jos sau vehicul. O podea ștearsă este înlocuită cu pământ, cu o podea de lemn la etaj sau cu aceeași dală de apă, așa că nu rămâi niciodată cu o gaură.
+- Resetează: reconstruiește obiectul de la zero, ca și cum abia ar fi fost amplasat. Dala și finisajele (tapet, vopsea, ornamente) se păstrează, iar starea revine la neutru: aragazul se oprește, o ușă se închide, un container rămâne gol.
+
+Fiecare acțiune cere mai întâi confirmare și te avertizează când un container își va pierde conținutul.
+
+[h2]Important[/h2]
+Acesta este un instrument de depanare: ștergerea sau resetarea obiectelor nu poate fi anulată. Folosește-l în cunoștință de cauză și păstrează o copie de siguranță a salvării dacă nu ești sigur.
+
+Evident, nu am putut testa fiecare scenariu în parte: jocul are o cantitate absurdă de dale, obiecte și iteme, și asta fără să mai vorbim de moduri. Dacă ceva nu se comportă cum ar trebui, o resetare care merge prost, un obiect care ar trebui semnalat și nu este, sau orice altceva, anunță-mă în secțiunea de comentarii și voi face tot posibilul să rezolv.
+
+[h2]Întrebări și răspunsuri[/h2]
+Q: Funcționează în multiplayer?
+A: Da. În single-player oricine îl poate folosi. În multiplayer este rezervat adminilor, iar fiecare acțiune este verificată de server.
+
+Q: Poate readuce o dală la cum arăta inițial harta?
+A: Nu. Datele originale ale hărții pot fi citite doar de motorul jocului. Tile Doctor lucrează cu ce se află în prezent pe dale.
+
+Q: Am găsit un caz pe care nu îl tratează, ce ar trebui să fac?
+A: Postează-l în secțiunea de comentarii cu coloanele "Tip" și "Dală / obiect" ale rândului respectiv, modul din care crezi că provine, dacă e cazul, și, dacă se poate, eroarea din console.txt (în C:\Users\NumeleTău\Zomboid).
+
+Modul este disponibil în 29 de limbi.
+
+Nu ezita să îți împărtășești părerile, rapoartele de bug și ideile în secțiunea de comentarii, citesc tot.

@@ -1,0 +1,37 @@
+Tile Doctor er et utviklings- og feilsøkingsverktøy. Det lar deg se hva som faktisk ligger på rutene rundt karakteren din, og reparere dem som er ødelagt: usynlige kollisjoner, rester etter fjernede mods, objekter som ikke lenger kan plukkes opp eller brukes.
+
+Høyreklikk hvor som helst og velg Tile Doctor. Et vindu åpnes med en tabell over alt på de 9 rutene rundt karakteren din, og en gul kontur viser det skannede området i verdenen. Tabellen følger deg når du beveger deg.
+
+For hvert objekt, lik og kjøretøy viser den:
+- Ruten det står på
+- Typen og navnet
+- Tilen, eller gjenstandstypen for gjenstander på bakken
+- Kollisjons- og strukturegenskapene
+- Et rødt varsel når noe ser ødelagt ut (manglende tile, tile fra en fjernet mod, usynlig objekt)
+
+Hold musepekeren over en rad for å markere objektet med en kontur i verdenen. Vær obs på at en kontur kan være skjult når en vegg eller noe annet blokkerer sikten mellom deg og objektet.
+
+Mulige handlinger på hver rad:
+- Slett: fjerner bare det ene objektet, liket, gjenstanden eller kjøretøyet. Et slettet gulv erstattes med jord, et tregulv i etasjene over eller den samme vannruten, så du aldri ender opp med et hull.
+- Tilbakestill: bygger objektet opp på nytt fra bunnen av, som om det nettopp var plassert. Tilen og overflatene (tapet, maling, lister) beholdes, og tilstanden går tilbake til nøytral: en komfyr slås av, en dør lukkes, en beholder blir tom.
+
+Hver handling ber om bekreftelse først og advarer deg når en beholder vil miste innholdet sitt.
+
+[h2]Viktig[/h2]
+Dette er et feilsøkingsverktøy: sletting eller tilbakestilling av objekter kan ikke angres. Bruk det med omhu, og ta en sikkerhetskopi av det lagrede spillet ditt hvis du er usikker.
+
+Jeg har naturligvis ikke kunnet teste hvert eneste scenario: det finnes en latterlig mengde ruter, objekter og gjenstander i dette spillet, og da har vi ikke engang snakket om mods. Hvis noe ikke oppfører seg som forventet, en tilbakestilling som går galt, et objekt som burde flagges og ikke blir det, eller noe annet, si gjerne fra i kommentarfeltet, så skal jeg gjøre mitt beste for å håndtere det.
+
+[h2]Spørsmål og svar[/h2]
+Q: Fungerer det i flerspiller?
+A: Ja. I enspiller kan alle bruke det. I flerspiller er det forbeholdt administratorer, og hver handling kontrolleres av serveren.
+
+Q: Kan det gjenopprette en rute slik kartet opprinnelig så ut?
+A: Nei. De opprinnelige kartdataene kan bare leses av spillmotoren. Tile Doctor jobber med det som ligger på rutene akkurat nå.
+
+Q: Jeg har funnet et tilfelle det ikke håndterer, hva skal jeg gjøre?
+A: Skriv det i kommentarfeltet med kolonnene "Type" og "Flis / gjenstand" fra den aktuelle raden, modden du tror det kommer fra hvis det er relevant, og om mulig feilen fra console.txt (i C:\Users\DittNavn\Zomboid).
+
+Modden er tilgjengelig på 29 språk.
+
+Del gjerne tilbakemeldinger, feilrapporter og idéer i kommentarfeltet, jeg leser alt.

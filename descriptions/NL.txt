@@ -1,0 +1,37 @@
+Tile Doctor is een ontwikkel- en debugtool. Je ziet ermee wat er werkelijk op de tegels rond je personage ligt, en je kunt de kapotte repareren: onzichtbare collisies, restanten van verwijderde mods, objecten die niet meer kunnen worden opgepakt of gebruikt.
+
+Klik ergens met de rechtermuisknop en kies Tile Doctor. Er opent een venster met een tabel van alles op de 9 tegels rond je personage, en een gele omlijning toont het gescande gebied in de wereld. De tabel volgt je terwijl je beweegt.
+
+Voor elk object, lijk en voertuig toont hij:
+- De tegel waarop het staat
+- Het type en de naam
+- De tile, of het itemtype voor items op de grond
+- De collisie- en structuureigenschappen
+- Een rode waarschuwing wanneer iets kapot lijkt (ontbrekende tile, tile van een verwijderde mod, onzichtbaar object)
+
+Beweeg de muis over een rij om dat object in de wereld te omlijnen. Let op: een omlijning kan verborgen zijn wanneer een muur of iets anders het zicht tussen jou en het object blokkeert.
+
+Mogelijke acties per rij:
+- Verwijderen: verwijdert alleen dat ene object, lijk, item of voertuig. Een verwijderde vloer wordt vervangen door aarde, een houten vloer op hogere verdiepingen of dezelfde watertegel, zodat je nooit met een gat blijft zitten.
+- Resetten: bouwt het object opnieuw op, alsof het net geplaatst is. De tile en afwerking (behang, verf, plinten) blijven behouden, de toestand gaat terug naar neutraal: een fornuis gaat uit, een deur gaat dicht, een container is weer leeg.
+
+Elke actie vraagt eerst om bevestiging en waarschuwt je wanneer een container zijn inhoud kwijtraakt.
+
+[h2]Belangrijk[/h2]
+Dit is een debugtool: het verwijderen of resetten van objecten kan niet ongedaan worden gemaakt. Gebruik het bewust, en maak een back-up van je save als je twijfelt.
+
+Ik heb uiteraard niet elk denkbaar scenario kunnen testen: er zitten belachelijk veel tegels, objecten en items in dit spel, en dan hebben we het nog niet eens over mods. Als iets zich niet gedraagt zoals verwacht, een reset die misgaat, een object dat gemarkeerd zou moeten worden maar dat niet is, of iets anders, laat het me dan weten in de reacties en ik doe mijn best om het af te handelen.
+
+[h2]Vragen en antwoorden[/h2]
+Q: Werkt het in multiplayer?
+A: Ja. In singleplayer kan iedereen het gebruiken. In multiplayer is het voorbehouden aan admins, en elke actie wordt door de server gecontroleerd.
+
+Q: Kan het een tegel herstellen naar hoe de kaart er oorspronkelijk uitzag?
+A: Nee. De oorspronkelijke kaartgegevens zijn alleen leesbaar voor de game-engine. Tile Doctor werkt met wat er op dit moment op de tegels ligt.
+
+Q: Ik heb een geval gevonden dat het niet afhandelt, wat moet ik doen?
+A: Plaats het in de reacties met de kolommen "Type" en "Tegel / voorwerp" van de betreffende rij, de mod waar het volgens jou vandaan komt als dat van toepassing is en, indien mogelijk, de fout uit je console.txt (in C:\Users\JouwNaam\Zomboid).
+
+De mod is beschikbaar in 29 talen.
+
+Deel gerust je feedback, bugmeldingen en ideeën in de reacties, ik lees alles.
