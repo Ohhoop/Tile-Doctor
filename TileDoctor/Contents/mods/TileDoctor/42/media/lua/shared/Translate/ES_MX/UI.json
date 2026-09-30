@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Casilla",
+    "UI_TileDoctor_ColClass": "Tipo",
+    "UI_TileDoctor_ColName": "Nombre",
+    "UI_TileDoctor_ColSource": "Tile / objeto",
+    "UI_TileDoctor_ColFlags": "Propiedades",
+    "UI_TileDoctor_ColActions": "Acciones",
+    "UI_TileDoctor_AlertNoSprite": "Este objeto no tiene ningún tile: es invisible.",
+    "UI_TileDoctor_AlertNoSpriteName": "Su tile no tiene nombre.",
+    "UI_TileDoctor_AlertUnknownSprite": "Su tile ya no existe en el juego, probablemente de un mod eliminado.",
+    "UI_TileDoctor_AlertNoTexture": "Su tile no tiene imagen: el objeto es invisible.",
+    "UI_TileDoctor_ConfirmRemove": "¿Eliminar este elemento?\n%1\nNo se puede deshacer.",
+    "UI_TileDoctor_ConfirmReset": "¿Reiniciar este elemento a nuevo?\n%1\nSu estado actual se perderá.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Es un contenedor: todo su contenido se perderá."
+}

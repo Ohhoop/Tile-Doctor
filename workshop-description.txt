@@ -1,0 +1,37 @@
+Tile Doctor is a development and debugging tool. It lets you look at what is really sitting on the tiles around your character, and fix the ones that are broken: invisible collisions, leftovers from removed mods, objects that cannot be picked up or used anymore.
+
+Right-click anywhere and choose Tile Doctor. A window opens with a table of everything on the 9 tiles around your character, and a yellow outline shows the scanned area in the world. The table follows you as you move.
+
+For each object, corpse and vehicle it shows:
+- The tile it stands on
+- Its type and name
+- Its tile, or its item type for items on the ground
+- Its collision and structure properties
+- A red alert when something looks broken (missing tile, tile from a removed mod, invisible object)
+
+Hover a row to outline that object in the world. Be careful: an outline can be hidden when a wall or something else blocks the view between you and the object.
+
+Possible actions on each row:
+- Delete: removes that single object, corpse, item or vehicle. A deleted floor is replaced by dirt, a wooden floor upstairs, or the same water tile, so you never end up with a hole.
+- Reset: rebuilds the object from scratch, as if freshly placed. Its tile and finishes (wallpaper, paint, trim) are kept, its state goes back to neutral: a stove turns off, a door closes, a container comes back empty.
+
+Every action asks for confirmation first, and warns you when a container will lose its contents.
+
+[h2]Important[/h2]
+This is a debugging tool: deleting or resetting objects cannot be undone. Use it knowingly, and keep a backup of your save if you are unsure.
+
+I was obviously not able to test every single scenario: there is a ridiculous amount of tiles, objects and items in this game, and that is without even talking about mods. If something does not behave as expected, a reset that goes wrong, an object that should be flagged and is not, or anything else, please let me know in the comment section and I will do my best to handle it.
+
+[h2]Q&A[/h2]
+Q: Does it work in multiplayer?
+A: Yes. In single player anyone can use it. In multiplayer it is reserved for admins, and every action is checked by the server.
+
+Q: Can it restore a tile to how the map originally looked?
+A: No. The original map data is only readable by the game engine. Tile Doctor works on what is currently on the tiles.
+
+Q: I found a case it does not handle, what should I do?
+A: Post it in the comment section with the Type and Tile columns of the row in question, the mod you think it comes from if applicable and, if possible, the error from your console.txt (in C:\Users\YourName\Zomboid).
+
+The mod is available in 29 languages.
+
+Feel free to share your feedback, bug reports and ideas in the comment section, I read everything.

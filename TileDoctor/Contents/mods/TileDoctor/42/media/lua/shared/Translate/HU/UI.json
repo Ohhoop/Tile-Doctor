@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Mező",
+    "UI_TileDoctor_ColClass": "Típus",
+    "UI_TileDoctor_ColName": "Név",
+    "UI_TileDoctor_ColSource": "Csempe / tárgy",
+    "UI_TileDoctor_ColFlags": "Tulajdonságok",
+    "UI_TileDoctor_ColActions": "Műveletek",
+    "UI_TileDoctor_AlertNoSprite": "Ennek az objektumnak nincs csempéje: láthatatlan.",
+    "UI_TileDoctor_AlertNoSpriteName": "A csempéjének nincs neve.",
+    "UI_TileDoctor_AlertUnknownSprite": "A csempéje már nem létezik a játékban, valószínűleg egy eltávolított modból.",
+    "UI_TileDoctor_AlertNoTexture": "A csempéjének nincs képe: az objektum láthatatlan.",
+    "UI_TileDoctor_ConfirmRemove": "Törlöd ezt az elemet?\n%1\nEz nem vonható vissza.",
+    "UI_TileDoctor_ConfirmReset": "Visszaállítod ezt az elemet újra?\n%1\nA jelenlegi állapota elvész.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Ez egy tároló: minden tartalma elvész."
+}

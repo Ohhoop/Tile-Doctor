@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Kare",
+    "UI_TileDoctor_ColClass": "Tür",
+    "UI_TileDoctor_ColName": "Ad",
+    "UI_TileDoctor_ColSource": "Karo / eşya",
+    "UI_TileDoctor_ColFlags": "Özellikler",
+    "UI_TileDoctor_ColActions": "İşlemler",
+    "UI_TileDoctor_AlertNoSprite": "Bu nesnenin hiç karosu yok: görünmez.",
+    "UI_TileDoctor_AlertNoSpriteName": "Karosunun adı yok.",
+    "UI_TileDoctor_AlertUnknownSprite": "Karosu artık oyunda yok, muhtemelen kaldırılmış bir moddan.",
+    "UI_TileDoctor_AlertNoTexture": "Karosunun görseli yok: nesne görünmez.",
+    "UI_TileDoctor_ConfirmRemove": "Bu öğe silinsin mi?\n%1\nBu işlem geri alınamaz.",
+    "UI_TileDoctor_ConfirmReset": "Bu öğe yeniymiş gibi sıfırlansın mı?\n%1\nMevcut durumu kaybolacak.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Bu bir kap: içindeki her şey kaybolacak."
+}

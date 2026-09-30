@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Petak",
+    "UI_TileDoctor_ColClass": "Tipe",
+    "UI_TileDoctor_ColName": "Nama",
+    "UI_TileDoctor_ColSource": "Tile / barang",
+    "UI_TileDoctor_ColFlags": "Properti",
+    "UI_TileDoctor_ColActions": "Aksi",
+    "UI_TileDoctor_AlertNoSprite": "Objek ini tidak punya tile sama sekali: tidak terlihat.",
+    "UI_TileDoctor_AlertNoSpriteName": "Tile-nya tidak punya nama.",
+    "UI_TileDoctor_AlertUnknownSprite": "Tile-nya sudah tidak ada di game, kemungkinan dari mod yang dihapus.",
+    "UI_TileDoctor_AlertNoTexture": "Tile-nya tidak punya gambar: objek tidak terlihat.",
+    "UI_TileDoctor_ConfirmRemove": "Hapus elemen ini?\n%1\nTindakan ini tidak dapat dibatalkan.",
+    "UI_TileDoctor_ConfirmReset": "Atur ulang elemen ini menjadi baru?\n%1\nKeadaannya saat ini akan hilang.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Ini adalah wadah: semua isinya akan hilang."
+}

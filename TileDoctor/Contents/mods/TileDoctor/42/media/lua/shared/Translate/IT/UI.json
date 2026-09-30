@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Casella",
+    "UI_TileDoctor_ColClass": "Tipo",
+    "UI_TileDoctor_ColName": "Nome",
+    "UI_TileDoctor_ColSource": "Tile / oggetto",
+    "UI_TileDoctor_ColFlags": "Proprietà",
+    "UI_TileDoctor_ColActions": "Azioni",
+    "UI_TileDoctor_AlertNoSprite": "Questo oggetto non ha nessun tile: è invisibile.",
+    "UI_TileDoctor_AlertNoSpriteName": "Il suo tile non ha nome.",
+    "UI_TileDoctor_AlertUnknownSprite": "Il suo tile non esiste più nel gioco, probabilmente da una mod rimossa.",
+    "UI_TileDoctor_AlertNoTexture": "Il suo tile non ha immagine: l'oggetto è invisibile.",
+    "UI_TileDoctor_ConfirmRemove": "Vuoi eliminare questo elemento?\n%1\nL'operazione non può essere annullata.",
+    "UI_TileDoctor_ConfirmReset": "Vuoi ripristinare questo elemento come nuovo?\n%1\nIl suo stato attuale andrà perso.",
+    "UI_TileDoctor_ConfirmHoldsItems": "È un contenitore: tutto il suo contenuto andrà perso."
+}

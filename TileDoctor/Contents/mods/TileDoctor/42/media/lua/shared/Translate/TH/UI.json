@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "ช่อง",
+    "UI_TileDoctor_ColClass": "ประเภท",
+    "UI_TileDoctor_ColName": "ชื่อ",
+    "UI_TileDoctor_ColSource": "ไทล์ / ไอเท็ม",
+    "UI_TileDoctor_ColFlags": "คุณสมบัติ",
+    "UI_TileDoctor_ColActions": "การกระทำ",
+    "UI_TileDoctor_AlertNoSprite": "วัตถุนี้ไม่มีไทล์เลย: มองไม่เห็น",
+    "UI_TileDoctor_AlertNoSpriteName": "ไทล์ของมันไม่มีชื่อ",
+    "UI_TileDoctor_AlertUnknownSprite": "ไทล์ของมันไม่มีอยู่ในเกมแล้ว อาจมาจากม็อดที่ถูกลบ",
+    "UI_TileDoctor_AlertNoTexture": "ไทล์ของมันไม่มีภาพ: วัตถุมองไม่เห็น",
+    "UI_TileDoctor_ConfirmRemove": "ลบองค์ประกอบนี้หรือไม่?\n%1\nการกระทำนี้ไม่สามารถย้อนกลับได้",
+    "UI_TileDoctor_ConfirmReset": "รีเซ็ตองค์ประกอบนี้ให้เป็นของใหม่หรือไม่?\n%1\nสถานะปัจจุบันจะหายไป",
+    "UI_TileDoctor_ConfirmHoldsItems": "นี่คือภาชนะ: ของทั้งหมดข้างในจะหายไป"
+}

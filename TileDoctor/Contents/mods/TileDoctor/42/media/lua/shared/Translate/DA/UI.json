@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Felt",
+    "UI_TileDoctor_ColClass": "Type",
+    "UI_TileDoctor_ColName": "Navn",
+    "UI_TileDoctor_ColSource": "Tile / genstand",
+    "UI_TileDoctor_ColFlags": "Egenskaber",
+    "UI_TileDoctor_ColActions": "Handlinger",
+    "UI_TileDoctor_AlertNoSprite": "Dette objekt har ingen tile: det er usynligt.",
+    "UI_TileDoctor_AlertNoSpriteName": "Dets tile har intet navn.",
+    "UI_TileDoctor_AlertUnknownSprite": "Dets tile findes ikke længere i spillet, sandsynligvis fra et fjernet mod.",
+    "UI_TileDoctor_AlertNoTexture": "Dets tile har intet billede: objektet er usynligt.",
+    "UI_TileDoctor_ConfirmRemove": "Vil du slette dette element?\n%1\nDette kan ikke fortrydes.",
+    "UI_TileDoctor_ConfirmReset": "Vil du nulstille dette element til en ny kopi?\n%1\nDets nuværende tilstand går tabt.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Det er en beholder: alt indhold går tabt."
+}

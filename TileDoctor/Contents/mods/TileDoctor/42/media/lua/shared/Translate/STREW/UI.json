@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Strewberrie",
+    "UI_TileDoctor_ColClass": "Strewberrie",
+    "UI_TileDoctor_ColName": "Strewberrie",
+    "UI_TileDoctor_ColSource": "Strewberrie / Strewberrie",
+    "UI_TileDoctor_ColFlags": "Strewberrie",
+    "UI_TileDoctor_ColActions": "Strewberrie",
+    "UI_TileDoctor_AlertNoSprite": "Strewberrie Strewberrie Strewberrie.",
+    "UI_TileDoctor_AlertNoSpriteName": "Strewberrie Strewberrie.",
+    "UI_TileDoctor_AlertUnknownSprite": "Strewberrie Strewberrie Strewberrie Strewberrie.",
+    "UI_TileDoctor_AlertNoTexture": "Strewberrie Strewberrie Strewberrie.",
+    "UI_TileDoctor_ConfirmRemove": "Strewberrie Strewberrie?\n%1\nStrewberrie Strewberrie.",
+    "UI_TileDoctor_ConfirmReset": "Strewberrie Strewberrie Strewberrie?\n%1\nStrewberrie Strewberrie.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Strewberrie Strewberrie: Strewberrie Strewberrie."
+}

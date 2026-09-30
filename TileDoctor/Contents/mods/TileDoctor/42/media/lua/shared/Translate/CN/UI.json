@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "格子",
+    "UI_TileDoctor_ColClass": "类型",
+    "UI_TileDoctor_ColName": "名称",
+    "UI_TileDoctor_ColSource": "图块 / 物品",
+    "UI_TileDoctor_ColFlags": "属性",
+    "UI_TileDoctor_ColActions": "操作",
+    "UI_TileDoctor_AlertNoSprite": "此物体没有任何图块：它是隐形的。",
+    "UI_TileDoctor_AlertNoSpriteName": "它的图块没有名称。",
+    "UI_TileDoctor_AlertUnknownSprite": "它的图块已不存在于游戏中，可能来自已移除的模组。",
+    "UI_TileDoctor_AlertNoTexture": "它的图块没有图像：物体是隐形的。",
+    "UI_TileDoctor_ConfirmRemove": "要删除此元素吗？\n%1\n此操作无法撤销。",
+    "UI_TileDoctor_ConfirmReset": "要将此元素重置为全新状态吗？\n%1\n它当前的状态将会丢失。",
+    "UI_TileDoctor_ConfirmHoldsItems": "这是一个容器：里面的所有东西都会丢失。"
+}

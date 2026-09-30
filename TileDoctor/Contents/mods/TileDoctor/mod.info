@@ -1,0 +1,7 @@
+id=TileDoctor
+name=Tile Doctor
+description=Inspects the tiles around the player and removes or rebuilds broken objects, corpses and vehicles.
+modversion=1.0.0
+poster=poster.png
+icon=poster.png
+versionMin=42.0

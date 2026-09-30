@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "マス",
+    "UI_TileDoctor_ColClass": "種類",
+    "UI_TileDoctor_ColName": "名前",
+    "UI_TileDoctor_ColSource": "タイル / アイテム",
+    "UI_TileDoctor_ColFlags": "プロパティ",
+    "UI_TileDoctor_ColActions": "操作",
+    "UI_TileDoctor_AlertNoSprite": "このオブジェクトにはタイルがありません：見えません。",
+    "UI_TileDoctor_AlertNoSpriteName": "タイルに名前がありません。",
+    "UI_TileDoctor_AlertUnknownSprite": "タイルがゲームに存在しません。削除されたMODのものと思われます。",
+    "UI_TileDoctor_AlertNoTexture": "タイルに画像がありません：オブジェクトは見えません。",
+    "UI_TileDoctor_ConfirmRemove": "この要素を削除しますか？\n%1\nこの操作は元に戻せません。",
+    "UI_TileDoctor_ConfirmReset": "この要素を新品の状態にリセットしますか？\n%1\n現在の状態は失われます。",
+    "UI_TileDoctor_ConfirmHoldsItems": "これは収納です：中身はすべて失われます。"
+}

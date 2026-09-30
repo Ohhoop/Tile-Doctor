@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Casella",
+    "UI_TileDoctor_ColClass": "Tipus",
+    "UI_TileDoctor_ColName": "Nom",
+    "UI_TileDoctor_ColSource": "Tile / objecte",
+    "UI_TileDoctor_ColFlags": "Propietats",
+    "UI_TileDoctor_ColActions": "Accions",
+    "UI_TileDoctor_AlertNoSprite": "Aquest objecte no té cap tile: és invisible.",
+    "UI_TileDoctor_AlertNoSpriteName": "El seu tile no té nom.",
+    "UI_TileDoctor_AlertUnknownSprite": "El seu tile ja no existeix al joc, probablement d'un mod eliminat.",
+    "UI_TileDoctor_AlertNoTexture": "El seu tile no té imatge: l'objecte és invisible.",
+    "UI_TileDoctor_ConfirmRemove": "Vols eliminar aquest element?\n%1\nNo es pot desfer.",
+    "UI_TileDoctor_ConfirmReset": "Vols reiniciar aquest element de nou?\n%1\nEs perdrà el seu estat actual.",
+    "UI_TileDoctor_ConfirmHoldsItems": "És un contenidor: tot el seu contingut es perdrà."
+}

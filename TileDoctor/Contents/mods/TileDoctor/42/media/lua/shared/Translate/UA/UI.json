@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Клітинка",
+    "UI_TileDoctor_ColClass": "Тип",
+    "UI_TileDoctor_ColName": "Назва",
+    "UI_TileDoctor_ColSource": "Тайл / предмет",
+    "UI_TileDoctor_ColFlags": "Властивості",
+    "UI_TileDoctor_ColActions": "Дії",
+    "UI_TileDoctor_AlertNoSprite": "У цього об'єкта немає тайла: він невидимий.",
+    "UI_TileDoctor_AlertNoSpriteName": "Його тайл не має назви.",
+    "UI_TileDoctor_AlertUnknownSprite": "Його тайла більше немає в грі, ймовірно, з видаленого мода.",
+    "UI_TileDoctor_AlertNoTexture": "Його тайл не має зображення: об'єкт невидимий.",
+    "UI_TileDoctor_ConfirmRemove": "Видалити цей елемент?\n%1\nЦю дію не можна скасувати.",
+    "UI_TileDoctor_ConfirmReset": "Скинути цей елемент до нового стану?\n%1\nЙого поточний стан буде втрачено.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Це контейнер: увесь його вміст буде втрачено."
+}

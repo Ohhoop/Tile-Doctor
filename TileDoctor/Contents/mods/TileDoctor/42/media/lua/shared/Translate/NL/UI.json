@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Vak",
+    "UI_TileDoctor_ColClass": "Type",
+    "UI_TileDoctor_ColName": "Naam",
+    "UI_TileDoctor_ColSource": "Tegel / voorwerp",
+    "UI_TileDoctor_ColFlags": "Eigenschappen",
+    "UI_TileDoctor_ColActions": "Acties",
+    "UI_TileDoctor_AlertNoSprite": "Dit object heeft helemaal geen tegel: het is onzichtbaar.",
+    "UI_TileDoctor_AlertNoSpriteName": "De tegel heeft geen naam.",
+    "UI_TileDoctor_AlertUnknownSprite": "De tegel bestaat niet meer in het spel, waarschijnlijk van een verwijderde mod.",
+    "UI_TileDoctor_AlertNoTexture": "De tegel heeft geen afbeelding: het object is onzichtbaar.",
+    "UI_TileDoctor_ConfirmRemove": "Wil je dit element verwijderen?\n%1\nDit kan niet ongedaan worden gemaakt.",
+    "UI_TileDoctor_ConfirmReset": "Wil je dit element als nieuw resetten?\n%1\nDe huidige staat gaat verloren.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Het is een container: alle inhoud gaat verloren."
+}

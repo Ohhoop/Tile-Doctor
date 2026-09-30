@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Square",
+    "UI_TileDoctor_ColClass": "Type",
+    "UI_TileDoctor_ColName": "Name",
+    "UI_TileDoctor_ColSource": "Tile / item",
+    "UI_TileDoctor_ColFlags": "Properties",
+    "UI_TileDoctor_ColActions": "Actions",
+    "UI_TileDoctor_AlertNoSprite": "This object has no tile at all: it is invisible.",
+    "UI_TileDoctor_AlertNoSpriteName": "Its tile has no name.",
+    "UI_TileDoctor_AlertUnknownSprite": "Its tile no longer exists in the game, probably from a removed mod.",
+    "UI_TileDoctor_AlertNoTexture": "Its tile has no image: the object is invisible.",
+    "UI_TileDoctor_ConfirmRemove": "Delete this element?\n%1\nThis cannot be undone.",
+    "UI_TileDoctor_ConfirmReset": "Reset this element to a fresh copy?\n%1\nIts current state will be lost.",
+    "UI_TileDoctor_ConfirmHoldsItems": "It is a container: everything inside will be lost."
+}

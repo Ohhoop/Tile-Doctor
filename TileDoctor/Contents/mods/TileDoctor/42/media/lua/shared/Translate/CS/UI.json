@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Dlaždice",
+    "UI_TileDoctor_ColClass": "Typ",
+    "UI_TileDoctor_ColName": "Název",
+    "UI_TileDoctor_ColSource": "Dlaždice / předmět",
+    "UI_TileDoctor_ColFlags": "Vlastnosti",
+    "UI_TileDoctor_ColActions": "Akce",
+    "UI_TileDoctor_AlertNoSprite": "Tento objekt nemá žádnou dlaždici: je neviditelný.",
+    "UI_TileDoctor_AlertNoSpriteName": "Jeho dlaždice nemá název.",
+    "UI_TileDoctor_AlertUnknownSprite": "Jeho dlaždice už ve hře neexistuje, nejspíš z odebraného modu.",
+    "UI_TileDoctor_AlertNoTexture": "Jeho dlaždice nemá obrázek: objekt je neviditelný.",
+    "UI_TileDoctor_ConfirmRemove": "Smazat tento prvek?\n%1\nTuto akci nelze vrátit zpět.",
+    "UI_TileDoctor_ConfirmReset": "Obnovit tento prvek do nového stavu?\n%1\nJeho současný stav bude ztracen.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Je to kontejner: veškerý jeho obsah bude ztracen."
+}

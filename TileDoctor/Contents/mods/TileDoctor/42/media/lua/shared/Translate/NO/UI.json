@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Rute",
+    "UI_TileDoctor_ColClass": "Type",
+    "UI_TileDoctor_ColName": "Navn",
+    "UI_TileDoctor_ColSource": "Flis / gjenstand",
+    "UI_TileDoctor_ColFlags": "Egenskaper",
+    "UI_TileDoctor_ColActions": "Handlinger",
+    "UI_TileDoctor_AlertNoSprite": "Dette objektet har ingen flis: det er usynlig.",
+    "UI_TileDoctor_AlertNoSpriteName": "Flisen har ikke noe navn.",
+    "UI_TileDoctor_AlertUnknownSprite": "Flisen finnes ikke lenger i spillet, sannsynligvis fra en fjernet mod.",
+    "UI_TileDoctor_AlertNoTexture": "Flisen har ikke noe bilde: objektet er usynlig.",
+    "UI_TileDoctor_ConfirmRemove": "Vil du slette dette elementet?\n%1\nDette kan ikke angres.",
+    "UI_TileDoctor_ConfirmReset": "Vil du tilbakestille dette elementet til nytt?\n%1\nNåværende tilstand går tapt.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Det er en beholder: alt innholdet går tapt."
+}

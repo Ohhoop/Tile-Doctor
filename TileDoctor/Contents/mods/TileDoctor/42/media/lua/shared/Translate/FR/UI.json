@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Case",
+    "UI_TileDoctor_ColClass": "Type",
+    "UI_TileDoctor_ColName": "Nom",
+    "UI_TileDoctor_ColSource": "Tuile / objet",
+    "UI_TileDoctor_ColFlags": "Propriétés",
+    "UI_TileDoctor_ColActions": "Actions",
+    "UI_TileDoctor_AlertNoSprite": "Cet objet n'a aucune tuile : il est invisible.",
+    "UI_TileDoctor_AlertNoSpriteName": "Sa tuile n'a pas de nom.",
+    "UI_TileDoctor_AlertUnknownSprite": "Sa tuile n'existe plus dans le jeu, probablement celle d'un mod retiré.",
+    "UI_TileDoctor_AlertNoTexture": "Sa tuile n'a aucune image : l'objet est invisible.",
+    "UI_TileDoctor_ConfirmRemove": "Supprimer cet élément ?\n%1\nCette action est irréversible.",
+    "UI_TileDoctor_ConfirmReset": "Réinitialiser cet élément à neuf ?\n%1\nSon état actuel sera perdu.",
+    "UI_TileDoctor_ConfirmHoldsItems": "C'est un conteneur : tout son contenu sera perdu."
+}

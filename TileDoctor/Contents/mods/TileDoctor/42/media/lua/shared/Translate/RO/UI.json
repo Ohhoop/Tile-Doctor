@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Pătrat",
+    "UI_TileDoctor_ColClass": "Tip",
+    "UI_TileDoctor_ColName": "Nume",
+    "UI_TileDoctor_ColSource": "Dală / obiect",
+    "UI_TileDoctor_ColFlags": "Proprietăți",
+    "UI_TileDoctor_ColActions": "Acțiuni",
+    "UI_TileDoctor_AlertNoSprite": "Acest obiect nu are nicio dală: este invizibil.",
+    "UI_TileDoctor_AlertNoSpriteName": "Dala lui nu are nume.",
+    "UI_TileDoctor_AlertUnknownSprite": "Dala lui nu mai există în joc, probabil dintr-un mod eliminat.",
+    "UI_TileDoctor_AlertNoTexture": "Dala lui nu are imagine: obiectul este invizibil.",
+    "UI_TileDoctor_ConfirmRemove": "Vrei să ștergi acest element?\n%1\nAceastă acțiune nu poate fi anulată.",
+    "UI_TileDoctor_ConfirmReset": "Vrei să resetezi acest element ca nou?\n%1\nStarea lui actuală se va pierde.",
+    "UI_TileDoctor_ConfirmHoldsItems": "Este un recipient: tot conținutul lui se va pierde."
+}

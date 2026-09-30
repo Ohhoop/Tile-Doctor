@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "칸",
+    "UI_TileDoctor_ColClass": "유형",
+    "UI_TileDoctor_ColName": "이름",
+    "UI_TileDoctor_ColSource": "타일 / 아이템",
+    "UI_TileDoctor_ColFlags": "속성",
+    "UI_TileDoctor_ColActions": "작업",
+    "UI_TileDoctor_AlertNoSprite": "이 오브젝트에는 타일이 전혀 없습니다: 보이지 않습니다.",
+    "UI_TileDoctor_AlertNoSpriteName": "타일에 이름이 없습니다.",
+    "UI_TileDoctor_AlertUnknownSprite": "타일이 더 이상 게임에 없습니다. 제거된 모드의 것으로 보입니다.",
+    "UI_TileDoctor_AlertNoTexture": "타일에 이미지가 없습니다: 오브젝트가 보이지 않습니다.",
+    "UI_TileDoctor_ConfirmRemove": "이 요소를 삭제하시겠습니까?\n%1\n이 작업은 되돌릴 수 없습니다.",
+    "UI_TileDoctor_ConfirmReset": "이 요소를 새것으로 초기화하시겠습니까?\n%1\n현재 상태는 사라집니다.",
+    "UI_TileDoctor_ConfirmHoldsItems": "보관함입니다: 안에 든 모든 것이 사라집니다."
+}

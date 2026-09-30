@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "Pole",
+    "UI_TileDoctor_ColClass": "Typ",
+    "UI_TileDoctor_ColName": "Nazwa",
+    "UI_TileDoctor_ColSource": "Kafelek / przedmiot",
+    "UI_TileDoctor_ColFlags": "Właściwości",
+    "UI_TileDoctor_ColActions": "Akcje",
+    "UI_TileDoctor_AlertNoSprite": "Ten obiekt nie ma żadnego kafelka: jest niewidoczny.",
+    "UI_TileDoctor_AlertNoSpriteName": "Jego kafelek nie ma nazwy.",
+    "UI_TileDoctor_AlertUnknownSprite": "Jego kafelek nie istnieje już w grze, prawdopodobnie z usuniętego moda.",
+    "UI_TileDoctor_AlertNoTexture": "Jego kafelek nie ma obrazu: obiekt jest niewidoczny.",
+    "UI_TileDoctor_ConfirmRemove": "Czy chcesz usunąć ten element?\n%1\nTej operacji nie można cofnąć.",
+    "UI_TileDoctor_ConfirmReset": "Czy chcesz zresetować ten element do nowego stanu?\n%1\nJego obecny stan zostanie utracony.",
+    "UI_TileDoctor_ConfirmHoldsItems": "To pojemnik: cała jego zawartość zostanie utracona."
+}

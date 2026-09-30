@@ -1,0 +1,15 @@
+{
+    "UI_TileDoctor_ColSquare": "格子",
+    "UI_TileDoctor_ColClass": "類型",
+    "UI_TileDoctor_ColName": "名稱",
+    "UI_TileDoctor_ColSource": "圖塊 / 物品",
+    "UI_TileDoctor_ColFlags": "屬性",
+    "UI_TileDoctor_ColActions": "操作",
+    "UI_TileDoctor_AlertNoSprite": "此物件沒有任何圖塊：它是隱形的。",
+    "UI_TileDoctor_AlertNoSpriteName": "它的圖塊沒有名稱。",
+    "UI_TileDoctor_AlertUnknownSprite": "它的圖塊已不存在於遊戲中，可能來自已移除的模組。",
+    "UI_TileDoctor_AlertNoTexture": "它的圖塊沒有圖像：物件是隱形的。",
+    "UI_TileDoctor_ConfirmRemove": "要刪除此元素嗎？\n%1\n此操作無法復原。",
+    "UI_TileDoctor_ConfirmReset": "要將此元素重置為全新狀態嗎？\n%1\n它目前的狀態將會遺失。",
+    "UI_TileDoctor_ConfirmHoldsItems": "這是一個容器：裡面的所有東西都會遺失。"
+}
