@@ -1,5 +1,7 @@
+[h2]Hvad det er[/h2]
 Tile Doctor er et udviklings- og fejlfindingsværktøj. Det lader dig se, hvad der virkelig ligger på felterne omkring din karakter, og reparere dem, der er gået i stykker: usynlige kollisioner, rester fra fjernede mods, objekter, der ikke længere kan samles op eller bruges.
 
+[h2]Sådan virker det[/h2]
 Højreklik hvor som helst, og vælg Tile Doctor. Et vindue åbner med en tabel over alt på de 9 felter omkring din karakter, og en gul kontur viser det scannede område i verdenen. Tabellen følger dig, når du bevæger dig.
 
 For hvert objekt, lig og køretøj viser den:
@@ -15,14 +17,15 @@ Mulige handlinger på hver række:
 - Slet: fjerner netop det ene objekt, lig, genstand eller køretøj. Et slettet gulv erstattes af jord, et trægulv på etagerne ovenover eller det samme vandfelt, så du aldrig ender med et hul.
 - Nulstil: genopbygger objektet fra bunden, som om det lige var placeret. Dets tile og finish (tapet, maling, lister) bevares, og dets tilstand vender tilbage til neutral: et komfur slukkes, en dør lukkes, en beholder bliver tom.
 
-Hver handling beder først om bekræftelse og advarer dig, når en beholder vil miste sit indhold.
-
 [h2]Vigtigt[/h2]
 Dette er et fejlfindingsværktøj: sletning eller nulstilling af objekter kan ikke fortrydes. Brug det med omtanke, og tag en sikkerhedskopi af dit gemte spil, hvis du er i tvivl.
 
 Jeg har naturligvis ikke kunnet teste hvert eneste scenarie: der er en absurd mængde felter, objekter og genstande i dette spil, og det er uden overhovedet at tale om mods. Hvis noget ikke opfører sig som forventet, en nulstilling der går galt, et objekt der burde markeres og ikke gør det, eller noget helt tredje, så sig til i kommentarfeltet, så gør jeg mit bedste for at håndtere det.
 
 [h2]Spørgsmål og svar[/h2]
+Q: Er det sikkert at tilføje eller fjerne det midt i et save?
+A: Ja. Tile Doctor gemmer intet i din verden: det er lavet til at blive tilføjet, rette det ødelagte felt og blive fjernet igen.
+
 Q: Virker det i multiplayer?
 A: Ja. I singleplayer kan alle bruge det. I multiplayer er det forbeholdt administratorer, og hver handling kontrolleres af serveren.
 
@@ -31,7 +34,5 @@ A: Nej. De oprindelige kortdata kan kun læses af spilmotoren. Tile Doctor arbej
 
 Q: Jeg har fundet et tilfælde, det ikke håndterer, hvad skal jeg gøre?
 A: Skriv det i kommentarfeltet med kolonnerne "Type" og "Tile / genstand" fra den pågældende række, den mod, du tror, det stammer fra, hvis relevant, og om muligt fejlen fra din console.txt (i C:\Users\DitNavn\Zomboid).
-
-Modden findes på 29 sprog.
 
 Del gerne din feedback, dine fejlrapporter og idéer i kommentarfeltet, jeg læser alt.

@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Sa tuile n'a aucune image : l'objet est invisible.",
     "UI_TileDoctor_ConfirmRemove": "Supprimer cet élément ?\n%1\nCette action est irréversible.",
     "UI_TileDoctor_ConfirmReset": "Réinitialiser cet élément à neuf ?\n%1\nSon état actuel sera perdu.",
-    "UI_TileDoctor_ConfirmHoldsItems": "C'est un conteneur : tout son contenu sera perdu."
+    "UI_TileDoctor_ConfirmHoldsItems": "C'est un conteneur : tout son contenu sera perdu.",
+    "UI_TileDoctor_TooltipReset": "Remplace cet élément par une copie neuve.",
+    "UI_TileDoctor_TooltipRemove": "Supprime cet élément."
 }

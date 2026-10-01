@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Tile-nya tidak punya gambar: objek tidak terlihat.",
     "UI_TileDoctor_ConfirmRemove": "Hapus elemen ini?\n%1\nTindakan ini tidak dapat dibatalkan.",
     "UI_TileDoctor_ConfirmReset": "Atur ulang elemen ini menjadi baru?\n%1\nKeadaannya saat ini akan hilang.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Ini adalah wadah: semua isinya akan hilang."
+    "UI_TileDoctor_ConfirmHoldsItems": "Ini adalah wadah: semua isinya akan hilang.",
+    "UI_TileDoctor_TooltipReset": "Mengganti elemen ini dengan salinan baru.",
+    "UI_TileDoctor_TooltipRemove": "Menghapus elemen ini."
 }

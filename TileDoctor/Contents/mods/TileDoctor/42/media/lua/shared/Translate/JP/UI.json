@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "タイルに画像がありません：オブジェクトは見えません。",
     "UI_TileDoctor_ConfirmRemove": "この要素を削除しますか？\n%1\nこの操作は元に戻せません。",
     "UI_TileDoctor_ConfirmReset": "この要素を新品の状態にリセットしますか？\n%1\n現在の状態は失われます。",
-    "UI_TileDoctor_ConfirmHoldsItems": "これは収納です：中身はすべて失われます。"
+    "UI_TileDoctor_ConfirmHoldsItems": "これは収納です：中身はすべて失われます。",
+    "UI_TileDoctor_TooltipReset": "この要素を新しいコピーに置き換えます。",
+    "UI_TileDoctor_TooltipRemove": "この要素を削除します。"
 }

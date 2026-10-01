@@ -1,5 +1,7 @@
+[h2]Ce que c'est[/h2]
 Tile Doctor est un outil de développement et de débogage. Il vous permet de voir ce qui se trouve réellement sur les cases autour de votre personnage, et de réparer celles qui sont cassées : collisions invisibles, restes de mods retirés, objets qu'on ne peut plus ramasser ni utiliser.
 
+[h2]Comment ça marche[/h2]
 Faites un clic droit n'importe où et choisissez Tile Doctor. Une fenêtre s'ouvre avec un tableau de tout ce qui se trouve sur les 9 cases autour de votre personnage, et un contour jaune indique la zone analysée dans le monde. Le tableau vous suit pendant vos déplacements.
 
 Pour chaque objet, cadavre et véhicule, il affiche :
@@ -15,14 +17,15 @@ Actions possibles sur chaque ligne :
 - Supprimer : retire cet objet, ce cadavre, cet item ou ce véhicule, et lui seul. Un sol supprimé est remplacé par de la terre, un plancher en bois à l'étage, ou la même tuile d'eau, pour ne jamais vous retrouver avec un trou.
 - Réinitialiser : reconstruit l'objet à partir de zéro, comme s'il venait d'être posé. Sa tuile et ses finitions (papier peint, peinture, moulures) sont conservées, son état revient au neutre : une cuisinière s'éteint, une porte se ferme, un conteneur redevient vide.
 
-Chaque action demande d'abord une confirmation, et vous avertit quand un conteneur va perdre son contenu.
-
 [h2]Important[/h2]
 Ceci est un outil de débogage : supprimer ou réinitialiser des objets est irréversible. Utilisez-le en connaissance de cause, et gardez une sauvegarde de votre partie si vous avez un doute.
 
 Je n'ai évidemment pas pu tester tous les scénarios possibles : ce jeu compte un nombre ridicule de tuiles, d'objets et d'items, et c'est sans même parler des mods. Si quelque chose ne se comporte pas comme prévu, une réinitialisation qui tourne mal, un objet qui devrait être signalé et ne l'est pas, ou quoi que ce soit d'autre, faites-le-moi savoir dans les commentaires et je ferai de mon mieux pour le prendre en charge.
 
 [h2]Questions et réponses[/h2]
+Q : Est-ce que je peux l'ajouter ou le retirer en cours de partie ?
+A : Oui. Tile Doctor n'enregistre rien dans ton monde : il est conçu pour être ajouté, corriger la case corrompue, puis être retiré.
+
 Q : Est-ce que ça fonctionne en multijoueur ?
 A : Oui. En solo, tout le monde peut l'utiliser. En multijoueur, il est réservé aux admins, et chaque action est vérifiée par le serveur.
 
@@ -31,7 +34,5 @@ A : Non. Les données d'origine de la carte ne sont lisibles que par le moteur d
 
 Q : J'ai trouvé un cas qu'il ne gère pas, que dois-je faire ?
 A : Postez-le dans les commentaires avec les colonnes Type et Tuile / objet de la ligne concernée, le mod dont il provient selon vous le cas échéant et, si possible, l'erreur de votre console.txt (dans C:\Users\VotreNom\Zomboid).
-
-Le mod est disponible en 29 langues.
 
 N'hésitez pas à partager vos retours, rapports de bugs et idées dans les commentaires, je lis tout.

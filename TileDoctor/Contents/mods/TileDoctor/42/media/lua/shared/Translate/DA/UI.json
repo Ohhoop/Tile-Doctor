@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Dets tile har intet billede: objektet er usynligt.",
     "UI_TileDoctor_ConfirmRemove": "Vil du slette dette element?\n%1\nDette kan ikke fortrydes.",
     "UI_TileDoctor_ConfirmReset": "Vil du nulstille dette element til en ny kopi?\n%1\nDets nuværende tilstand går tabt.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Det er en beholder: alt indhold går tabt."
+    "UI_TileDoctor_ConfirmHoldsItems": "Det er en beholder: alt indhold går tabt.",
+    "UI_TileDoctor_TooltipReset": "Erstatter dette element med en ny kopi.",
+    "UI_TileDoctor_TooltipRemove": "Sletter dette element."
 }

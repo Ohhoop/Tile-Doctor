@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Sen tiilellä ei ole kuvaa: objekti on näkymätön.",
     "UI_TileDoctor_ConfirmRemove": "Poistetaanko tämä elementti?\n%1\nTätä ei voi perua.",
     "UI_TileDoctor_ConfirmReset": "Palautetaanko tämä elementti uudeksi?\n%1\nSen nykyinen tila menetetään.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Se on säiliö: kaikki sen sisältö menetetään."
+    "UI_TileDoctor_ConfirmHoldsItems": "Se on säiliö: kaikki sen sisältö menetetään.",
+    "UI_TileDoctor_TooltipReset": "Korvaa tämän elementin uudella kopiolla.",
+    "UI_TileDoctor_TooltipRemove": "Poistaa tämän elementin."
 }

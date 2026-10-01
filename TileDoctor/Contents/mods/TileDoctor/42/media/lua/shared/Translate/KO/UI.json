@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "타일에 이미지가 없습니다: 오브젝트가 보이지 않습니다.",
     "UI_TileDoctor_ConfirmRemove": "이 요소를 삭제하시겠습니까?\n%1\n이 작업은 되돌릴 수 없습니다.",
     "UI_TileDoctor_ConfirmReset": "이 요소를 새것으로 초기화하시겠습니까?\n%1\n현재 상태는 사라집니다.",
-    "UI_TileDoctor_ConfirmHoldsItems": "보관함입니다: 안에 든 모든 것이 사라집니다."
+    "UI_TileDoctor_ConfirmHoldsItems": "보관함입니다: 안에 든 모든 것이 사라집니다.",
+    "UI_TileDoctor_TooltipReset": "이 요소를 새 사본으로 교체합니다.",
+    "UI_TileDoctor_TooltipRemove": "이 요소를 삭제합니다."
 }

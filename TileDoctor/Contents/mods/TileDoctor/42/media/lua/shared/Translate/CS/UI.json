@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Jeho dlaždice nemá obrázek: objekt je neviditelný.",
     "UI_TileDoctor_ConfirmRemove": "Smazat tento prvek?\n%1\nTuto akci nelze vrátit zpět.",
     "UI_TileDoctor_ConfirmReset": "Obnovit tento prvek do nového stavu?\n%1\nJeho současný stav bude ztracen.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Je to kontejner: veškerý jeho obsah bude ztracen."
+    "UI_TileDoctor_ConfirmHoldsItems": "Je to kontejner: veškerý jeho obsah bude ztracen.",
+    "UI_TileDoctor_TooltipReset": "Nahradí tento prvek novou kopií.",
+    "UI_TileDoctor_TooltipRemove": "Smaže tento prvek."
 }

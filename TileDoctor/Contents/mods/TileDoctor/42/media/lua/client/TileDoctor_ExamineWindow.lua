@@ -23,6 +23,9 @@ local ALERT_TEXTURE = "media/ui/TileDoctor/Alert.png"
 
 local ALERT_MARK = "!"
 
+local RESET_ACTION = { commandField = "resetCommand", confirmKey = "UI_TileDoctor_ConfirmReset", tooltipKey = "UI_TileDoctor_TooltipReset" }
+local REMOVE_ACTION = { commandField = "removeCommand", confirmKey = "UI_TileDoctor_ConfirmRemove", tooltipKey = "UI_TileDoctor_TooltipRemove" }
+
 local COLUMN_DEFINITIONS = {
     { kind = "alert", field = "alert", label = ALERT_MARK, width = 26, centered = true },
     { kind = "text", field = "square", sortField = "squareSortKey", titleKey = "UI_TileDoctor_ColSquare", width = 90 },
@@ -149,29 +152,43 @@ local function drawActionsCell(list, entry, column, y, height)
 end
 
 --- Returns the alert explanation of the row, or nil when it is not flagged.
-local function alertTooltip(entry)
+local function alertTooltip(_list, entry)
     return entry.alertTooltip
+end
+
+--- Returns the action of the row whose icon lies under the mouse, or nil when the mouse is over no available icon.
+local function actionAt(list, entry, column, mouseX)
+    local size = list:getIconSize()
+    local resetX, deleteX = list:getActionIconsX(column)
+    if entry.removeCommand and mouseX >= deleteX and mouseX < deleteX + size then
+        return REMOVE_ACTION
+    end
+    if entry.resetCommand and mouseX >= resetX and mouseX < resetX + size then
+        return RESET_ACTION
+    end
+    return nil
+end
+
+--- Returns the translated description of the action whose icon lies under the mouse, or nil when there is none.
+local function actionsTooltip(list, entry, column, mouseX)
+    local action = actionAt(list, entry, column, mouseX)
+    return action and getText(action.tooltipKey)
 end
 
 --- Asks for confirmation of the action whose icon lies under the mouse; returns true when an icon was clicked.
 local function clickActionsCell(list, entry, column, mouseX)
-    local size = list:getIconSize()
-    local resetX, deleteX = list:getActionIconsX(column)
-    if entry.removeCommand and mouseX >= deleteX and mouseX < deleteX + size then
-        list:confirmAction("UI_TileDoctor_ConfirmRemove", entry, entry.removeCommand)
-        return true
+    local action = actionAt(list, entry, column, mouseX)
+    if not action then
+        return false
     end
-    if entry.resetCommand and mouseX >= resetX and mouseX < resetX + size then
-        list:confirmAction("UI_TileDoctor_ConfirmReset", entry, entry.resetCommand)
-        return true
-    end
-    return false
+    list:confirmAction(action.confirmKey, entry, entry[action.commandField])
+    return true
 end
 
 local COLUMN_KINDS = {
     text = { draw = drawTextCell },
     alert = { draw = drawAlertCell, tooltip = alertTooltip },
-    actions = { draw = drawActionsCell, click = clickActionsCell },
+    actions = { draw = drawActionsCell, click = clickActionsCell, tooltip = actionsTooltip },
 }
 
 --- Draws one table row: its background, then every cell with the renderer of its column kind and the column borders.
@@ -260,7 +277,7 @@ function TileDoctorObjectList:updateTooltip()
     local tooltipOf = column and COLUMN_KINDS[column.kind].tooltip
     local item = tooltipOf and self.items[self:rowAt(mouseX, self:getMouseY())]
     if item then
-        item.tooltip = tooltipOf(item.item)
+        item.tooltip = tooltipOf(self, item.item, column, mouseX)
         self.tooltipItem = item
     end
     ISScrollingListBox.updateTooltip(self)

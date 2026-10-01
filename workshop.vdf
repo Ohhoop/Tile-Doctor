@@ -1,10 +1,10 @@
 "workshopitem"
 {
 	"appid"		"108600"
-	"publishedfileid"		"0"
+	"publishedfileid"		"3811138128"
 	"title"		"Tile Doctor"
 	"visibility"		"0"
 	"contentfolder"		"TileDoctor/Contents"
-	"previewfile"		"TileDoctor/preview.png"
+	"previewfile"		"images/td-thumb-512.gif"
 	"changenote"		"1.0.0"
 }

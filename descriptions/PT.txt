@@ -1,5 +1,7 @@
+[h2]O que é[/h2]
 O Tile Doctor é uma ferramenta de desenvolvimento e depuração. Permite-te ver o que está realmente em cima dos tiles à volta da tua personagem e corrigir os que estão avariados: colisões invisíveis, restos de mods removidos, objetos que já não podem ser apanhados nem usados.
 
+[h2]Como funciona[/h2]
 Clica com o botão direito em qualquer sítio e escolhe Tile Doctor. Abre-se uma janela com uma tabela de tudo o que está nos 9 tiles à volta da tua personagem, e um contorno amarelo mostra a área analisada no mundo. A tabela acompanha-te enquanto te deslocas.
 
 Para cada objeto, cadáver e veículo mostra:
@@ -15,14 +17,15 @@ Ações possíveis em cada linha:
 - Eliminar: remove apenas esse objeto, cadáver, item ou veículo. Um chão eliminado é substituído por terra, por um soalho de madeira nos pisos superiores ou pelo mesmo tile de água, por isso nunca ficas com um buraco.
 - Repor: reconstrói o objeto do zero, como se tivesse acabado de ser colocado. O tile e os acabamentos (papel de parede, tinta, rodapés) são mantidos, o estado volta ao neutro: um fogão desliga-se, uma porta fecha-se, um contentor fica vazio.
 
-Cada ação pede confirmação primeiro e avisa-te quando um contentor vai perder o conteúdo.
-
 [h2]Importante[/h2]
 Esta é uma ferramenta de depuração: eliminar ou repor objetos não pode ser desfeito. Usa-a com conhecimento de causa e, se tiveres dúvidas, guarda uma cópia de segurança do teu save.
 
 Obviamente não consegui testar todos os cenários: há uma quantidade absurda de tiles, objetos e itens neste jogo, e isto sem sequer falar dos mods. Se algo não se comportar como esperado, uma reposição que corre mal, um objeto que devia ser assinalado e não é, ou qualquer outra coisa, diz-me na secção de comentários e farei o meu melhor para tratar disso.
 
 [h2]Perguntas e respostas[/h2]
+Q: É seguro adicioná-lo ou removê-lo a meio de um jogo?
+A: Sim. O Tile Doctor não guarda nada no teu mundo: foi pensado para ser adicionado, corrigir o tile corrompido e ser removido.
+
 Q: Funciona em multijogador?
 A: Sim. Em modo de um jogador qualquer pessoa pode usá-lo. Em multijogador está reservado aos administradores, e cada ação é verificada pelo servidor.
 
@@ -31,7 +34,5 @@ A: Não. Os dados originais do mapa só podem ser lidos pelo motor do jogo. O Ti
 
 Q: Encontrei um caso que não é tratado, o que devo fazer?
 A: Publica-o na secção de comentários com as colunas "Tipo" e "Tile / item" da linha em questão, o mod de onde achas que vem, se for o caso, e, se possível, o erro do teu console.txt (em C:\Users\OTeuNome\Zomboid).
-
-O mod está disponível em 29 línguas.
 
 Sente-te à vontade para partilhar a tua opinião, relatórios de bugs e ideias na secção de comentários, leio tudo.

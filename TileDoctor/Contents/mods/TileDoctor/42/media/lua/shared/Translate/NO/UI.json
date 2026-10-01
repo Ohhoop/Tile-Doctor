@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Flisen har ikke noe bilde: objektet er usynlig.",
     "UI_TileDoctor_ConfirmRemove": "Vil du slette dette elementet?\n%1\nDette kan ikke angres.",
     "UI_TileDoctor_ConfirmReset": "Vil du tilbakestille dette elementet til nytt?\n%1\nNåværende tilstand går tapt.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Det er en beholder: alt innholdet går tapt."
+    "UI_TileDoctor_ConfirmHoldsItems": "Det er en beholder: alt innholdet går tapt.",
+    "UI_TileDoctor_TooltipReset": "Erstatter dette elementet med en ny kopi.",
+    "UI_TileDoctor_TooltipRemove": "Sletter dette elementet."
 }

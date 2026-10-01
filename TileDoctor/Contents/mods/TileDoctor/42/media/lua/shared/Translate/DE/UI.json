@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Sein Tile hat kein Bild: Das Objekt ist unsichtbar.",
     "UI_TileDoctor_ConfirmRemove": "Dieses Element löschen?\n%1\nDas kann nicht rückgängig gemacht werden.",
     "UI_TileDoctor_ConfirmReset": "Dieses Element neu zurücksetzen?\n%1\nSein aktueller Zustand geht verloren.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Es ist ein Behälter: Sein gesamter Inhalt geht verloren."
+    "UI_TileDoctor_ConfirmHoldsItems": "Es ist ein Behälter: Sein gesamter Inhalt geht verloren.",
+    "UI_TileDoctor_TooltipReset": "Ersetzt dieses Element durch eine neue Kopie.",
+    "UI_TileDoctor_TooltipRemove": "Löscht dieses Element."
 }

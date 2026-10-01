@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "У его тайла нет изображения: объект невидим.",
     "UI_TileDoctor_ConfirmRemove": "Удалить этот элемент?\n%1\nЭто действие нельзя отменить.",
     "UI_TileDoctor_ConfirmReset": "Сбросить этот элемент в новое состояние?\n%1\nЕго текущее состояние будет потеряно.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Это контейнер: всё его содержимое будет потеряно."
+    "UI_TileDoctor_ConfirmHoldsItems": "Это контейнер: всё его содержимое будет потеряно.",
+    "UI_TileDoctor_TooltipReset": "Заменяет этот элемент новой копией.",
+    "UI_TileDoctor_TooltipRemove": "Удаляет этот элемент."
 }

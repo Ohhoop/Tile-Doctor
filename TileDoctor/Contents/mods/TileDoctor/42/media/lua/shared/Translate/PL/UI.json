@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Jego kafelek nie ma obrazu: obiekt jest niewidoczny.",
     "UI_TileDoctor_ConfirmRemove": "Czy chcesz usunąć ten element?\n%1\nTej operacji nie można cofnąć.",
     "UI_TileDoctor_ConfirmReset": "Czy chcesz zresetować ten element do nowego stanu?\n%1\nJego obecny stan zostanie utracony.",
-    "UI_TileDoctor_ConfirmHoldsItems": "To pojemnik: cała jego zawartość zostanie utracona."
+    "UI_TileDoctor_ConfirmHoldsItems": "To pojemnik: cała jego zawartość zostanie utracona.",
+    "UI_TileDoctor_TooltipReset": "Zastępuje ten element nową kopią.",
+    "UI_TileDoctor_TooltipRemove": "Usuwa ten element."
 }

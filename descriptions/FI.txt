@@ -1,5 +1,7 @@
+[h2]Mikä se on[/h2]
 Tile Doctor on kehitys- ja vianetsintätyökalu. Sillä näet, mitä hahmosi ympärillä olevilla ruuduilla todella on, ja voit korjata rikkinäiset: näkymättömät törmäykset, poistettujen modien jäänteet sekä esineet, joita ei voi enää poimia tai käyttää.
 
+[h2]Miten se toimii[/h2]
 Napsauta hiiren oikealla painikkeella missä tahansa ja valitse Tile Doctor. Avautuu ikkuna, jossa on taulukko kaikesta hahmosi ympärillä olevilla 9 ruudulla, ja keltainen ääriviiva näyttää skannatun alueen maailmassa. Taulukko seuraa sinua liikkuessasi.
 
 Jokaisesta objektista, ruumiista ja ajoneuvosta näytetään:
@@ -15,14 +17,15 @@ Mahdolliset toiminnot jokaisella rivillä:
 - Poista: poistaa juuri sen yhden objektin, ruumiin, esineen tai ajoneuvon. Poistettu lattia korvataan maalla, yläkerroksissa puulattialla tai samalla vesiruudulla, joten lattiaan ei koskaan jää reikää.
 - Nollaa: rakentaa objektin alusta, kuin se olisi juuri asetettu. Sen tile ja pintakäsittelyt (tapetti, maali, listat) säilyvät, ja sen tila palautuu neutraaliksi: liesi sammuu, ovi sulkeutuu, säiliö tyhjenee.
 
-Jokainen toiminto pyytää ensin vahvistusta ja varoittaa, jos säiliö menettää sisältönsä.
-
 [h2]Tärkeää[/h2]
 Tämä on vianetsintätyökalu: objektien poistamista tai nollaamista ei voi perua. Käytä sitä harkiten ja ota varmuuskopio tallennuksestasi, jos olet epävarma.
 
 En tietenkään pystynyt testaamaan jokaista mahdollista tilannetta: tässä pelissä on naurettava määrä ruutuja, objekteja ja esineitä, eikä modeista ole edes vielä puhuttu. Jos jokin ei toimi odotetusti, nollaus menee pieleen, objekti jää merkitsemättä vaikka pitäisi tai jotain muuta, kerro siitä kommenttiosiossa, niin teen parhaani sen käsittelemiseksi.
 
 [h2]Kysymyksiä ja vastauksia[/h2]
+Q: Voiko sen lisätä tai poistaa kesken tallennuksen?
+A: Kyllä. Tile Doctor ei tallenna mitään maailmaasi: se on tehty lisättäväksi, korjaamaan rikkinäinen ruutu ja poistettavaksi.
+
 Q: Toimiiko se moninpelissä?
 A: Kyllä. Yksinpelissä kuka tahansa voi käyttää sitä. Moninpelissä se on varattu ylläpitäjille, ja palvelin tarkistaa jokaisen toiminnon.
 
@@ -31,7 +34,5 @@ A: Ei. Alkuperäistä karttadataa voi lukea vain pelimoottori. Tile Doctor käsi
 
 Q: Löysin tapauksen, jota se ei käsittele, mitä teen?
 A: Kirjoita siitä kommenttiosioon kyseisen rivin sarakkeiden "Tyyppi" ja "Tile / esine" tiedoilla, mainitse modi, josta arvelet sen olevan peräisin, jos se on olennaista, ja liitä mahdollisuuksien mukaan virhe console.txt-tiedostostasi (sijainti C:\Users\Nimesi\Zomboid).
-
-Modi on saatavilla 29 kielellä.
 
 Jaa palautteesi, bugiraporttisi ja ideasi kommenttiosiossa, luen kaiken.

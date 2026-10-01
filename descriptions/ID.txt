@@ -1,5 +1,7 @@
+[h2]Apa ini[/h2]
 Tile Doctor adalah alat pengembangan dan debugging. Alat ini memungkinkanmu melihat apa yang sebenarnya ada di petak-petak di sekitar karaktermu, dan memperbaiki yang rusak: tabrakan tak terlihat, sisa dari mod yang sudah dihapus, objek yang tidak bisa diambil atau dipakai lagi.
 
+[h2]Cara kerjanya[/h2]
 Klik kanan di mana saja dan pilih Tile Doctor. Sebuah jendela terbuka berisi tabel semua yang ada di 9 petak di sekitar karaktermu, dan garis kuning menandai area yang dipindai di dunia. Tabel ini mengikutimu saat kamu bergerak.
 
 Untuk setiap objek, mayat, dan kendaraan, tabel menampilkan:
@@ -15,14 +17,15 @@ Tindakan yang tersedia di setiap baris:
 - Hapus: menghapus satu objek, mayat, item, atau kendaraan itu saja. Lantai yang dihapus diganti dengan tanah, lantai kayu di lantai atas, atau tile air yang sama, jadi kamu tidak akan pernah mendapati lubang.
 - Reset: membangun ulang objek dari awal, seolah baru dipasang. Tile dan hiasannya (wallpaper, cat, lis) tetap dipertahankan, keadaannya kembali netral: kompor mati, pintu tertutup, wadah kembali kosong.
 
-Setiap tindakan meminta konfirmasi terlebih dahulu, dan memperingatkanmu jika sebuah wadah akan kehilangan isinya.
-
 [h2]Penting[/h2]
 Ini adalah alat debugging: menghapus atau mereset objek tidak bisa dibatalkan. Gunakan dengan sadar, dan simpan cadangan save-mu jika kamu ragu.
 
 Tentu saja saya tidak bisa menguji setiap skenario: ada begitu banyak tile, objek, dan item di game ini, belum lagi mod. Jika ada yang tidak berjalan sesuai harapan, reset yang gagal, objek yang seharusnya ditandai tetapi tidak, atau hal lainnya, beri tahu saya di bagian komentar dan saya akan berusaha sebaik mungkin menanganinya.
 
 [h2]Tanya Jawab[/h2]
+Q: Apakah aman ditambahkan atau dihapus di tengah save?
+A: Ya. Tile Doctor tidak menyimpan apa pun di duniamu: mod ini dibuat untuk ditambahkan, memperbaiki tile yang rusak, lalu dihapus.
+
 Q: Apakah bisa di multiplayer?
 A: Ya. Di mode pemain tunggal siapa pun bisa memakainya. Di multiplayer alat ini khusus untuk admin, dan setiap tindakan diperiksa oleh server.
 
@@ -31,7 +34,5 @@ A: Tidak. Data peta asli hanya bisa dibaca oleh mesin game. Tile Doctor bekerja 
 
 Q: Saya menemukan kasus yang tidak ditangani, apa yang harus saya lakukan?
 A: Tulis di bagian komentar dengan kolom "Tipe" dan "Tile / barang" dari baris yang bersangkutan, mod yang menurutmu menjadi asalnya jika ada, dan jika memungkinkan, error dari console.txt (di C:\Users\NamaKamu\Zomboid).
-
-Mod ini tersedia dalam 29 bahasa.
 
 Jangan ragu membagikan masukan, laporan bug, dan idemu di bagian komentar, saya membaca semuanya.

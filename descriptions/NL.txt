@@ -1,5 +1,7 @@
+[h2]Wat het is[/h2]
 Tile Doctor is een ontwikkel- en debugtool. Je ziet ermee wat er werkelijk op de tegels rond je personage ligt, en je kunt de kapotte repareren: onzichtbare collisies, restanten van verwijderde mods, objecten die niet meer kunnen worden opgepakt of gebruikt.
 
+[h2]Hoe het werkt[/h2]
 Klik ergens met de rechtermuisknop en kies Tile Doctor. Er opent een venster met een tabel van alles op de 9 tegels rond je personage, en een gele omlijning toont het gescande gebied in de wereld. De tabel volgt je terwijl je beweegt.
 
 Voor elk object, lijk en voertuig toont hij:
@@ -15,14 +17,15 @@ Mogelijke acties per rij:
 - Verwijderen: verwijdert alleen dat ene object, lijk, item of voertuig. Een verwijderde vloer wordt vervangen door aarde, een houten vloer op hogere verdiepingen of dezelfde watertegel, zodat je nooit met een gat blijft zitten.
 - Resetten: bouwt het object opnieuw op, alsof het net geplaatst is. De tile en afwerking (behang, verf, plinten) blijven behouden, de toestand gaat terug naar neutraal: een fornuis gaat uit, een deur gaat dicht, een container is weer leeg.
 
-Elke actie vraagt eerst om bevestiging en waarschuwt je wanneer een container zijn inhoud kwijtraakt.
-
 [h2]Belangrijk[/h2]
 Dit is een debugtool: het verwijderen of resetten van objecten kan niet ongedaan worden gemaakt. Gebruik het bewust, en maak een back-up van je save als je twijfelt.
 
 Ik heb uiteraard niet elk denkbaar scenario kunnen testen: er zitten belachelijk veel tegels, objecten en items in dit spel, en dan hebben we het nog niet eens over mods. Als iets zich niet gedraagt zoals verwacht, een reset die misgaat, een object dat gemarkeerd zou moeten worden maar dat niet is, of iets anders, laat het me dan weten in de reacties en ik doe mijn best om het af te handelen.
 
 [h2]Vragen en antwoorden[/h2]
+Q: Kan ik het veilig toevoegen of verwijderen midden in een save?
+A: Ja. Tile Doctor slaat niets op in je wereld: het is gemaakt om toegevoegd te worden, de kapotte tegel te repareren en weer verwijderd te worden.
+
 Q: Werkt het in multiplayer?
 A: Ja. In singleplayer kan iedereen het gebruiken. In multiplayer is het voorbehouden aan admins, en elke actie wordt door de server gecontroleerd.
 
@@ -31,7 +34,5 @@ A: Nee. De oorspronkelijke kaartgegevens zijn alleen leesbaar voor de game-engin
 
 Q: Ik heb een geval gevonden dat het niet afhandelt, wat moet ik doen?
 A: Plaats het in de reacties met de kolommen "Type" en "Tegel / voorwerp" van de betreffende rij, de mod waar het volgens jou vandaan komt als dat van toepassing is en, indien mogelijk, de fout uit je console.txt (in C:\Users\JouwNaam\Zomboid).
-
-De mod is beschikbaar in 29 talen.
 
 Deel gerust je feedback, bugmeldingen en ideeën in de reacties, ik lees alles.

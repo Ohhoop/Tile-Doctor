@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Karosunun görseli yok: nesne görünmez.",
     "UI_TileDoctor_ConfirmRemove": "Bu öğe silinsin mi?\n%1\nBu işlem geri alınamaz.",
     "UI_TileDoctor_ConfirmReset": "Bu öğe yeniymiş gibi sıfırlansın mı?\n%1\nMevcut durumu kaybolacak.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Bu bir kap: içindeki her şey kaybolacak."
+    "UI_TileDoctor_ConfirmHoldsItems": "Bu bir kap: içindeki her şey kaybolacak.",
+    "UI_TileDoctor_TooltipReset": "Bu öğeyi yeni bir kopyayla değiştirir.",
+    "UI_TileDoctor_TooltipRemove": "Bu öğeyi siler."
 }

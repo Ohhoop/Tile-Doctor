@@ -1,13 +1,14 @@
 """Publishes the Workshop item described by workshop.vdf, next to this script.
 
 Usage:
-    python publish_workshop.py [--skip-content] [--skip-descriptions] [--dry-run]
+    python publish_workshop.py [--skip-content] [--skip-descriptions] [--skip-tags] [--dry-run]
 
 Steps, each one running even when a previous one failed:
     1. Content, preview and change note through SteamCMD. When Steam refuses the
        preview, the upload is retried without it.
-    2. One localized description per file of the descriptions folder, through
-       the Steamworks API of the running Steam client.
+    2. The tags of the mod's workshop.txt, then one localized description per
+       file of the descriptions folder, through the Steamworks API of the
+       running Steam client.
 """
 
 import argparse
@@ -29,8 +30,10 @@ STEAM_API_DLL = os.environ.get("STEAM_API_DLL", r"H:\1 - Jeux\Steam\steamapps\co
 
 PATH_KEYS = ("contentfolder", "previewfile")
 SUBMIT_ITEM_UPDATE_RESULT_CALLBACK = 3404
+SUBMIT_ITEM_UPDATE_RESULT_SIZE = 16
 RESULT_OK = 1
 CALL_TIMEOUT_SECONDS = 120
+LOGON_TIMEOUT_SECONDS = 30
 DESCRIPTION_MAX_BYTES = 7999
 
 LANGUAGE_CODES = {
@@ -69,35 +72,40 @@ def absolute_pairs(pairs):
 
 
 def run_steamcmd(pairs, dry_run):
-    """Uploads a temporary vdf built from the pairs with SteamCMD; returns whether Steam reported success, and the output."""
+    """Uploads a temporary vdf built from the pairs with SteamCMD; returns whether Steam reported success, the output, and the published id SteamCMD wrote back."""
     handle, vdf = tempfile.mkstemp(suffix=".vdf")
     os.close(handle)
     try:
         write_vdf(vdf, pairs)
         if dry_run:
             with open(vdf, encoding="utf-8") as generated:
-                return True, generated.read()
+                return True, generated.read(), 0
         command = [STEAMCMD, "+login", STEAM_USER, "+workshop_build_item", vdf, "+quit"]
         completed = subprocess.run(command, capture_output=True, text=True, encoding="utf-8", errors="replace")
         output = completed.stdout + completed.stderr
         failed = completed.returncode != 0 or re.search(r"ERROR|Failed|failure", output, re.IGNORECASE)
-        return not failed, output
+        return not failed, output, int(dict(read_vdf(vdf)).get("publishedfileid", "0"))
     finally:
         os.remove(vdf)
 
 
 def publish_content(pairs, dry_run):
-    """Uploads the content with its preview, then again without the preview when Steam refuses it; returns a report line."""
-    ok, output = run_steamcmd(pairs, dry_run)
+    """Uploads the content with its preview, then again without the preview when Steam refuses it; returns a report line, the output and the published id."""
+    ok, output, published_id = run_steamcmd(pairs, dry_run)
     if ok:
-        return "content and preview: OK", output
+        return "content and preview: OK", output, published_id
     if not any(key == "previewfile" for key, _ in pairs):
-        return "content: FAILED", output
+        return "content: FAILED", output, published_id
     without_preview = [(key, value) for key, value in pairs if key != "previewfile"]
-    retry_ok, retry_output = run_steamcmd(without_preview, dry_run)
+    retry_ok, retry_output, retry_id = run_steamcmd(without_preview, dry_run)
     if retry_ok:
-        return "content: OK, preview: FAILED (upload retried without it)", output + retry_output
-    return "content and preview: FAILED", output + retry_output
+        return "content: OK, preview: FAILED (upload retried without it)", output + retry_output, retry_id or published_id
+    return "content and preview: FAILED", output + retry_output, retry_id or published_id
+
+
+def record_published_id(pairs, published_id):
+    """Writes the published id into workshop.vdf, keeping every other entry as it is."""
+    write_vdf(VDF_PATH, [(key, str(published_id) if key == "publishedfileid" else value) for key, value in pairs])
 
 
 def read_descriptions():
@@ -115,6 +123,23 @@ def read_descriptions():
     return found
 
 
+def read_tags(content_folder):
+    """Returns the tags listed on the tags line of the workshop.txt next to the content folder, or None when there is no such line."""
+    path = os.path.join(HERE, os.path.dirname(content_folder.rstrip("/\\")), "workshop.txt")
+    if not os.path.isfile(path):
+        return None
+    with open(path, encoding="utf-8") as handle:
+        for line in handle:
+            if line.startswith("tags="):
+                return [tag.strip() for tag in line[len("tags="):].split(";") if tag.strip()]
+    return None
+
+
+class SteamParamStringArray(ctypes.Structure):
+    """Mirrors the Steamworks SteamParamStringArray_t structure holding a list of strings."""
+    _fields_ = [("strings", ctypes.POINTER(ctypes.c_char_p)), ("count", ctypes.c_int32)]
+
+
 class SteamWorkshop:
     """Updates localized Workshop descriptions through the Steamworks API of the running Steam client."""
 
@@ -130,6 +155,17 @@ class SteamWorkshop:
             raise RuntimeError("Steam API could not start: " + error.value.decode("utf-8", "replace"))
         self.ugc = self.api.SteamAPI_SteamUGC_v021()
         self.utils = self.api.SteamAPI_SteamUtils_v010()
+        self._wait_for_logon()
+
+    def _wait_for_logon(self):
+        """Pumps the Steam callbacks until the client reports the user as logged on, or raises when it takes too long."""
+        user = self.api.SteamAPI_SteamUser_v023()
+        deadline = time.time() + LOGON_TIMEOUT_SECONDS
+        while not self.api.SteamAPI_ISteamUser_BLoggedOn(user):
+            if time.time() > deadline:
+                raise RuntimeError("the Steam client did not report the user as logged on")
+            self.api.SteamAPI_RunCallbacks()
+            time.sleep(0.2)
 
     def _declare(self):
         """Declares the argument and return types of the Steam API functions used."""
@@ -151,6 +187,11 @@ class SteamWorkshop:
         api.SteamAPI_ISteamUtils_GetAPICallResult.argtypes = [
             ctypes.c_void_p, ctypes.c_uint64, ctypes.c_void_p, ctypes.c_int, ctypes.c_int, ctypes.POINTER(ctypes.c_bool)]
         api.SteamAPI_ISteamUtils_GetAPICallResult.restype = ctypes.c_bool
+        api.SteamAPI_ISteamUGC_SetItemTags.argtypes = [ctypes.c_void_p, ctypes.c_uint64, ctypes.POINTER(SteamParamStringArray), ctypes.c_bool]
+        api.SteamAPI_ISteamUGC_SetItemTags.restype = ctypes.c_bool
+        api.SteamAPI_SteamUser_v023.restype = ctypes.c_void_p
+        api.SteamAPI_ISteamUser_BLoggedOn.argtypes = [ctypes.c_void_p]
+        api.SteamAPI_ISteamUser_BLoggedOn.restype = ctypes.c_bool
         api.SteamAPI_RunCallbacks.restype = None
         api.SteamAPI_Shutdown.restype = None
 
@@ -163,7 +204,7 @@ class SteamWorkshop:
                 return None
             self.api.SteamAPI_RunCallbacks()
             time.sleep(0.2)
-        buffer = ctypes.create_string_buffer(32)
+        buffer = ctypes.create_string_buffer(SUBMIT_ITEM_UPDATE_RESULT_SIZE)
         if not self.api.SteamAPI_ISteamUtils_GetAPICallResult(
                 self.utils, call, buffer, len(buffer), SUBMIT_ITEM_UPDATE_RESULT_CALLBACK, ctypes.byref(failed)) or failed.value:
             return None
@@ -179,32 +220,51 @@ class SteamWorkshop:
         call = self.api.SteamAPI_ISteamUGC_SubmitItemUpdate(self.ugc, handle, change_note.encode("utf-8"))
         return self._wait_for_result(call)
 
+    def set_tags(self, published_id, tags, change_note):
+        """Submits the tags of the item, replacing the current ones; returns the Steam result code, or None when they could not be submitted."""
+        encoded = [tag.encode("utf-8") for tag in tags]
+        strings = (ctypes.c_char_p * len(encoded))(*encoded)
+        array = SteamParamStringArray(strings, len(encoded))
+        handle = self.api.SteamAPI_ISteamUGC_StartItemUpdate(self.ugc, self.app_id, published_id)
+        if not self.api.SteamAPI_ISteamUGC_SetItemTags(self.ugc, handle, ctypes.byref(array), False):
+            return None
+        call = self.api.SteamAPI_ISteamUGC_SubmitItemUpdate(self.ugc, handle, change_note.encode("utf-8"))
+        return self._wait_for_result(call)
+
     def close(self):
         """Disconnects from the Steam client."""
         self.api.SteamAPI_Shutdown()
 
 
-def publish_descriptions(app_id, published_id, change_note, dry_run):
-    """Submits every description file as its localized description; returns one report line per language."""
-    descriptions = read_descriptions()
-    if not descriptions:
-        return ["descriptions: none found"]
+def publish_through_client(app_id, published_id, change_note, tags, send_descriptions, dry_run):
+    """Submits the tags, when given, and every description file as its localized description; returns one report line per step."""
     reports = []
     usable = []
-    for code, language, text in descriptions:
-        if language is None:
-            reports.append("description {}: SKIPPED (unknown language code)".format(code))
-        elif len(text.encode("utf-8")) > DESCRIPTION_MAX_BYTES:
-            reports.append("description {}: SKIPPED ({} bytes, limit {})".format(code, len(text.encode("utf-8")), DESCRIPTION_MAX_BYTES))
-        else:
-            usable.append((code, language, text))
+    if send_descriptions:
+        descriptions = read_descriptions()
+        if not descriptions:
+            reports.append("descriptions: none found")
+        for code, language, text in descriptions:
+            if language is None:
+                reports.append("description {}: SKIPPED (unknown language code)".format(code))
+            elif len(text.encode("utf-8")) > DESCRIPTION_MAX_BYTES:
+                reports.append("description {}: SKIPPED ({} bytes, limit {})".format(code, len(text.encode("utf-8")), DESCRIPTION_MAX_BYTES))
+            else:
+                usable.append((code, language, text))
+    if tags is None and not usable:
+        return reports
     if dry_run:
+        if tags is not None:
+            reports.append("tags: would be set to {}".format(";".join(tags)))
         return reports + ["description {} ({}): would be sent, {} bytes".format(c, l, len(t.encode("utf-8"))) for c, l, t in usable]
     try:
         workshop = SteamWorkshop(app_id)
     except (OSError, RuntimeError) as error:
-        return reports + ["descriptions: FAILED ({})".format(error)]
+        return reports + ["Steam client: FAILED ({})".format(error)]
     try:
+        if tags is not None:
+            result = workshop.set_tags(published_id, tags, change_note)
+            reports.append("tags {}: {}".format(";".join(tags), "OK" if result == RESULT_OK else "FAILED (Steam result {})".format(result)))
         for code, language, text in usable:
             result = workshop.set_description(published_id, language, text, change_note)
             status = "OK" if result == RESULT_OK else "FAILED (Steam result {})".format(result)
@@ -219,6 +279,7 @@ def main():
     parser = argparse.ArgumentParser(description="Publishes the Workshop item of workshop.vdf.")
     parser.add_argument("--skip-content", action="store_true", help="do not upload the content and preview")
     parser.add_argument("--skip-descriptions", action="store_true", help="do not upload the localized descriptions")
+    parser.add_argument("--skip-tags", action="store_true", help="do not upload the tags of the mod's workshop.txt")
     parser.add_argument("--dry-run", action="store_true", help="show what would be sent without contacting Steam")
     args = parser.parse_args()
 
@@ -230,14 +291,19 @@ def main():
 
     report = []
     if not args.skip_content:
-        line, output = publish_content(absolute_pairs(pairs), args.dry_run)
+        line, output, new_id = publish_content(absolute_pairs(pairs), args.dry_run)
         print(output)
         report.append(line)
-    if not args.skip_descriptions:
+        if published_id == 0 and new_id:
+            published_id = new_id
+            record_published_id(pairs, published_id)
+            report.append("published id {} recorded in workshop.vdf".format(published_id))
+    tags = None if args.skip_tags else read_tags(values.get("contentfolder", ""))
+    if tags is not None or not args.skip_descriptions:
         if published_id == 0:
-            report.append("descriptions: SKIPPED (the item has no published id yet; set publishedfileid first)")
+            report.append("tags and descriptions: SKIPPED (the item has no published id yet; set publishedfileid first)")
         else:
-            report.extend(publish_descriptions(app_id, published_id, change_note, args.dry_run))
+            report.extend(publish_through_client(app_id, published_id, change_note, tags, not args.skip_descriptions, args.dry_run))
 
     print("\n".join(["", "==== Report ===="] + report))
     return 0 if not any("FAILED" in line for line in report) else 1

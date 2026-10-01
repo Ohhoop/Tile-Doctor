@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Its tile has no image: the object is invisible.",
     "UI_TileDoctor_ConfirmRemove": "Delete this element?\n%1\nThis cannot be undone.",
     "UI_TileDoctor_ConfirmReset": "Reset this element to a fresh copy?\n%1\nIts current state will be lost.",
-    "UI_TileDoctor_ConfirmHoldsItems": "It is a container: everything inside will be lost."
+    "UI_TileDoctor_ConfirmHoldsItems": "It is a container: everything inside will be lost.",
+    "UI_TileDoctor_TooltipReset": "Replaces this element with a fresh copy.",
+    "UI_TileDoctor_TooltipRemove": "Deletes this element."
 }

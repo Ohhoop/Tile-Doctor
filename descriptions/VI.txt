@@ -1,5 +1,7 @@
+[h2]Đây là gì[/h2]
 Tile Doctor là một công cụ phát triển và gỡ lỗi. Nó cho phép bạn xem những gì thật sự nằm trên các ô quanh nhân vật và sửa những ô bị lỗi: va chạm vô hình, tàn dư từ các mod đã gỡ, vật thể không thể nhặt hay sử dụng được nữa.
 
+[h2]Cách hoạt động[/h2]
 Nhấp chuột phải ở bất kỳ đâu và chọn Tile Doctor. Một cửa sổ mở ra với bảng liệt kê mọi thứ trên 9 ô quanh nhân vật, và một đường viền vàng hiển thị vùng được quét trong thế giới. Bảng sẽ cập nhật theo khi bạn di chuyển.
 
 Với mỗi vật thể, xác chết và phương tiện, nó hiển thị:
@@ -15,14 +17,15 @@ Các thao tác có thể thực hiện trên mỗi hàng:
 - Xóa: gỡ bỏ đúng một vật thể, xác chết, vật phẩm hoặc phương tiện đó. Sàn bị xóa sẽ được thay bằng đất, sàn gỗ nếu ở tầng trên, hoặc cùng loại tile nước, nên bạn sẽ không bao giờ bị thủng lỗ.
 - Đặt lại: dựng lại vật thể từ đầu, như thể vừa mới đặt. Tile và phần hoàn thiện (giấy dán tường, sơn, viền trang trí) được giữ lại, trạng thái trở về mặc định: bếp tắt, cửa đóng, thùng chứa trống rỗng.
 
-Mọi thao tác đều yêu cầu xác nhận trước, và cảnh báo bạn khi một thùng chứa sẽ mất đồ bên trong.
-
 [h2]Quan trọng[/h2]
 Đây là công cụ gỡ lỗi: việc xóa hoặc đặt lại vật thể không thể hoàn tác. Hãy sử dụng khi đã hiểu rõ, và sao lưu bản lưu của bạn nếu không chắc chắn.
 
 Tất nhiên tôi không thể thử mọi tình huống: trò chơi này có số lượng tile, vật thể và vật phẩm nhiều đến mức vô lý, chưa kể đến các mod. Nếu có gì đó không hoạt động như mong đợi, một lần đặt lại bị lỗi, một vật thể lẽ ra phải bị đánh dấu nhưng không, hay bất cứ điều gì khác, hãy cho tôi biết trong phần bình luận và tôi sẽ cố gắng hết sức để xử lý.
 
 [h2]Hỏi & Đáp[/h2]
+Q: Có an toàn khi thêm hoặc gỡ mod giữa chừng một bản lưu không?
+A: Có. Tile Doctor không lưu gì vào thế giới của bạn: mod được thiết kế để thêm vào, sửa ô bị hỏng rồi gỡ ra.
+
 Q: Mod có hoạt động trong chế độ nhiều người chơi không?
 A: Có. Khi chơi đơn, ai cũng có thể dùng. Khi chơi nhiều người, nó chỉ dành cho quản trị viên, và mọi thao tác đều được máy chủ kiểm tra.
 
@@ -31,7 +34,5 @@ A: Không. Dữ liệu bản đồ gốc chỉ engine của trò chơi mới đ�
 
 Q: Tôi phát hiện một trường hợp mà nó không xử lý được, tôi nên làm gì?
 A: Đăng trong phần bình luận kèm cột "Type" và "Tile / item" của hàng liên quan, mod mà bạn nghĩ nó đến từ đó nếu có, và nếu được, lỗi từ console.txt của bạn (trong C:\Users\TênCủaBạn\Zomboid).
-
-Mod có sẵn bằng 29 ngôn ngữ.
 
 Cứ thoải mái chia sẻ góp ý, báo lỗi và ý tưởng trong phần bình luận, tôi đọc tất cả.

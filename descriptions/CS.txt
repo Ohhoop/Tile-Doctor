@@ -1,5 +1,7 @@
+[h2]Co to je[/h2]
 Tile Doctor je nástroj pro vývoj a ladění. Umožňuje vám podívat se, co se skutečně nachází na dlaždicích kolem vaší postavy, a opravit ty, které jsou rozbité: neviditelné kolize, pozůstatky odebraných modů, objekty, které už nejde sebrat ani použít.
 
+[h2]Jak to funguje[/h2]
 Klikněte kamkoli pravým tlačítkem a zvolte Tile Doctor. Otevře se okno s tabulkou všeho, co leží na 9 dlaždicích kolem vaší postavy, a žlutý obrys ukazuje ve světě prohledávanou oblast. Tabulka vás při pohybu následuje.
 
 U každého objektu, mrtvoly a vozidla zobrazuje:
@@ -15,14 +17,15 @@ Možné akce na každém řádku:
 - Smazat: odstraní jen tento jeden objekt, mrtvolu, předmět nebo vozidlo. Smazaná podlaha se nahradí hlínou, dřevěnou podlahou v patře nebo stejnou vodní dlaždicí, takže nikdy nezůstane díra.
 - Obnovit: sestaví objekt úplně znovu, jako by byl právě položen. Jeho dlaždice a povrchové úpravy (tapeta, barva, lišty) zůstanou zachovány, jeho stav se vrátí do výchozího: sporák se vypne, dveře se zavřou, kontejner bude opět prázdný.
 
-Každá akce si nejprve vyžádá potvrzení a upozorní vás, když kontejner přijde o svůj obsah.
-
 [h2]Důležité[/h2]
 Toto je ladicí nástroj: smazání nebo obnovení objektů nelze vrátit zpět. Používejte ho s rozmyslem, a pokud si nejste jisti, zálohujte si uloženou hru.
 
 Samozřejmě jsem nemohl otestovat úplně každý scénář: v této hře je směšné množství dlaždic, objektů a předmětů, a to ani nemluvím o modech. Pokud se něco nechová podle očekávání, obnovení, které se nepovede, objekt, který by měl být označen a není, nebo cokoli jiného, dejte mi prosím vědět v komentářích a udělám, co bude v mých silách, abych to vyřešil.
 
 [h2]Otázky a odpovědi[/h2]
+Q: Je bezpečné ho přidat nebo odebrat během rozehrané hry?
+A: Ano. Tile Doctor do tvého světa nic neukládá: je navržený tak, aby se přidal, opravil poškozenou dlaždici a zase odebral.
+
 Q: Funguje to v multiplayeru?
 A: Ano. Ve hře pro jednoho hráče ho může použít kdokoli. V multiplayeru je vyhrazen administrátorům a každou akci ověřuje server.
 
@@ -31,7 +34,5 @@ A: Ne. Původní data mapy dokáže číst pouze herní engine. Tile Doctor prac
 
 Q: Našel jsem případ, který nezvládá, co mám dělat?
 A: Napište ho do komentářů se sloupci Typ a Dlaždice / předmět z daného řádku, s modem, ze kterého podle vás pochází (pokud nějaký), a pokud možno i s chybou ze svého console.txt (v C:\Users\VaseJmeno\Zomboid).
-
-Mod je dostupný ve 29 jazycích.
 
 Klidně sdílejte svou zpětnou vazbu, hlášení chyb a nápady v komentářích, čtu všechno.

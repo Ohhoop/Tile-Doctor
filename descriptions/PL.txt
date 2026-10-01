@@ -1,5 +1,7 @@
+[h2]Czym jest[/h2]
 Tile Doctor to narzędzie deweloperskie i debugujące. Pozwala zobaczyć, co naprawdę znajduje się na polach wokół twojej postaci, i naprawić te, które są zepsute: niewidzialne kolizje, pozostałości po usuniętych modach, obiekty, których nie da się już podnieść ani użyć.
 
+[h2]Jak to działa[/h2]
 Kliknij prawym przyciskiem w dowolnym miejscu i wybierz Tile Doctor. Otworzy się okno z tabelą wszystkiego, co znajduje się na 9 polach wokół twojej postaci, a żółty obrys pokaże w świecie skanowany obszar. Tabela podąża za tobą, gdy się poruszasz.
 
 Dla każdego obiektu, zwłok i pojazdu pokazuje:
@@ -15,14 +17,15 @@ Możliwe akcje w każdym wierszu:
 - Usuń: usuwa tylko ten jeden obiekt, zwłoki, przedmiot lub pojazd. Usunięta podłoga zostaje zastąpiona ziemią, drewnianą podłogą na piętrze lub tym samym kafelkiem wody, więc nigdy nie zostaje dziura.
 - Resetuj: odbudowuje obiekt od zera, jakby został dopiero postawiony. Jego kafelek i wykończenia (tapeta, farba, listwy) zostają zachowane, a stan wraca do neutralnego: kuchenka się wyłącza, drzwi się zamykają, pojemnik znów jest pusty.
 
-Każda akcja najpierw prosi o potwierdzenie i ostrzega, gdy pojemnik straci swoją zawartość.
-
 [h2]Ważne[/h2]
 To narzędzie do debugowania: usunięcia ani zresetowania obiektów nie można cofnąć. Używaj go świadomie i zrób kopię zapasową zapisu, jeśli nie masz pewności.
 
 Oczywiście nie byłem w stanie przetestować każdego scenariusza: w tej grze jest absurdalna liczba kafelków, obiektów i przedmiotów, i to nie wspominając o modach. Jeśli coś nie działa zgodnie z oczekiwaniami, reset, który pójdzie źle, obiekt, który powinien zostać oznaczony, a nie jest, czy cokolwiek innego, daj mi znać w komentarzach, a zrobię, co w mojej mocy, żeby to obsłużyć.
 
 [h2]Pytania i odpowiedzi[/h2]
+Q: Czy można go bezpiecznie dodać lub usunąć w trakcie zapisu gry?
+A: Tak. Tile Doctor nic nie zapisuje w twoim świecie: jest zaprojektowany, by go dodać, naprawić uszkodzone pole i usunąć.
+
 Q: Czy to działa w trybie wieloosobowym?
 A: Tak. W grze jednoosobowej może go używać każdy. W trybie wieloosobowym jest zarezerwowany dla adminów, a każdą akcję sprawdza serwer.
 
@@ -31,7 +34,5 @@ A: Nie. Oryginalne dane mapy może odczytać tylko silnik gry. Tile Doctor dzia�
 
 Q: Znalazłem przypadek, którego nie obsługuje, co mam zrobić?
 A: Napisz o nim w komentarzach, podając kolumny Typ i Kafelek / przedmiot z danego wiersza, mod, z którego twoim zdaniem pochodzi (jeśli dotyczy), oraz, jeśli to możliwe, błąd ze swojego console.txt (w C:\Users\TwojaNazwa\Zomboid).
-
-Mod jest dostępny w 29 językach.
 
 Śmiało dziel się opiniami, zgłoszeniami błędów i pomysłami w komentarzach, czytam wszystko.

@@ -1,5 +1,7 @@
+[h2]Mi ez[/h2]
 A Tile Doctor egy fejlesztői és hibakereső eszköz. Megmutatja, mi van valójában a karaktered körüli mezőkön, és lehetővé teszi a hibás mezők javítását: láthatatlan ütközések, eltávolított modok maradványai, olyan tárgyak, amelyeket már nem lehet felvenni vagy használni.
 
+[h2]Hogyan működik[/h2]
 Kattints jobb gombbal bárhol, és válaszd a Tile Doctor lehetőséget. Megnyílik egy ablak egy táblázattal mindenről, ami a karaktered körüli 9 mezőn található, egy sárga körvonal pedig a világban jelzi a vizsgált területet. A táblázat követ, ahogy mozogsz.
 
 Minden tárgynál, holttestnél és járműnél megjeleníti:
@@ -15,14 +17,15 @@ Az egyes sorokon elérhető műveletek:
 - Törlés: csak azt az egy tárgyat, holttestet, itemet vagy járművet távolítja el. A törölt padlót föld, emeleten fapadló, vagy ugyanaz a vízcsempe váltja fel, így sosem marad lyuk.
 - Visszaállítás: nulláról újraépíti az objektumot, mintha most helyezték volna le. A csempéje és a felületei (tapéta, festés, díszlécek) megmaradnak, az állapota alaphelyzetbe kerül: a tűzhely kikapcsol, az ajtó bezárul, a tároló újra üres lesz.
 
-Minden művelet előbb megerősítést kér, és figyelmeztet, ha egy tároló elveszíti a tartalmát.
-
 [h2]Fontos[/h2]
 Ez egy hibakereső eszköz: az objektumok törlése vagy visszaállítása nem vonható vissza. Használd tudatosan, és ha bizonytalan vagy, készíts biztonsági mentést a mentésedről.
 
 Természetesen nem tudtam minden egyes helyzetet kipróbálni: ebben a játékban nevetségesen sok csempe, objektum és tárgy van, és akkor a modokról még nem is beszéltünk. Ha valami nem a várt módon működik, egy visszaállítás rosszul sül el, egy objektum, amelyet meg kellene jelölni, nincs megjelölve, vagy bármi más, kérlek, jelezd a hozzászólásokban, és mindent megteszek, hogy kezeljem.
 
 [h2]Kérdések és válaszok[/h2]
+Q: Biztonságos hozzáadni vagy eltávolítani egy mentés közben?
+A: Igen. A Tile Doctor semmit sem ment a világodba: arra készült, hogy hozzáadd, kijavítsa a sérült mezőt, majd eltávolítsd.
+
 Q: Működik többjátékos módban?
 A: Igen. Egyjátékos módban bárki használhatja. Többjátékos módban csak az adminok számára érhető el, és minden műveletet a szerver ellenőriz.
 
@@ -31,7 +34,5 @@ A: Nem. Az eredeti térképadatokat csak a játékmotor tudja olvasni. A Tile Do
 
 Q: Találtam egy esetet, amelyet nem kezel, mit tegyek?
 A: Írd meg a hozzászólásokban az adott sor Típus és Csempe / tárgy oszlopával, azzal a moddal, amelyből szerinted származik (ha van ilyen), és ha lehetséges, a console.txt fájlodban lévő hibával (a C:\Users\Felhasznalonev\Zomboid mappában).
-
-A mod 29 nyelven érhető el.
 
 Nyugodtan oszd meg a visszajelzéseidet, hibajelentéseidet és ötleteidet a hozzászólásokban, mindent elolvasok.

@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "A csempéjének nincs képe: az objektum láthatatlan.",
     "UI_TileDoctor_ConfirmRemove": "Törlöd ezt az elemet?\n%1\nEz nem vonható vissza.",
     "UI_TileDoctor_ConfirmReset": "Visszaállítod ezt az elemet újra?\n%1\nA jelenlegi állapota elvész.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Ez egy tároló: minden tartalma elvész."
+    "UI_TileDoctor_ConfirmHoldsItems": "Ez egy tároló: minden tartalma elvész.",
+    "UI_TileDoctor_TooltipReset": "Lecseréli ezt az elemet egy új példányra.",
+    "UI_TileDoctor_TooltipRemove": "Törli ezt az elemet."
 }

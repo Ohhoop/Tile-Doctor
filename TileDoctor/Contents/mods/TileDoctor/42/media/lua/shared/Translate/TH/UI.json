@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "ไทล์ของมันไม่มีภาพ: วัตถุมองไม่เห็น",
     "UI_TileDoctor_ConfirmRemove": "ลบองค์ประกอบนี้หรือไม่?\n%1\nการกระทำนี้ไม่สามารถย้อนกลับได้",
     "UI_TileDoctor_ConfirmReset": "รีเซ็ตองค์ประกอบนี้ให้เป็นของใหม่หรือไม่?\n%1\nสถานะปัจจุบันจะหายไป",
-    "UI_TileDoctor_ConfirmHoldsItems": "นี่คือภาชนะ: ของทั้งหมดข้างในจะหายไป"
+    "UI_TileDoctor_ConfirmHoldsItems": "นี่คือภาชนะ: ของทั้งหมดข้างในจะหายไป",
+    "UI_TileDoctor_TooltipReset": "แทนที่องค์ประกอบนี้ด้วยสำเนาใหม่",
+    "UI_TileDoctor_TooltipRemove": "ลบองค์ประกอบนี้"
 }

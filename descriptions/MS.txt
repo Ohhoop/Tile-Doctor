@@ -1,5 +1,7 @@
+[h2]Apa itu[/h2]
 Tile Doctor ialah alat pembangunan dan nyahpepijat. Ia membolehkan anda melihat apa yang sebenarnya berada pada petak di sekeliling watak anda, dan membaiki yang rosak: perlanggaran yang tidak kelihatan, sisa daripada mod yang telah dibuang, objek yang tidak lagi boleh diambil atau digunakan.
 
+[h2]Cara ia berfungsi[/h2]
 Klik kanan di mana-mana dan pilih Tile Doctor. Satu tetingkap dibuka dengan jadual segala-galanya pada 9 petak di sekeliling watak anda, dan garis kuning menandakan kawasan yang diimbas di dalam dunia. Jadual ini mengikut anda semasa anda bergerak.
 
 Bagi setiap objek, mayat dan kenderaan, ia memaparkan:
@@ -15,14 +17,15 @@ Tindakan yang tersedia pada setiap baris:
 - Padam: membuang objek, mayat, item atau kenderaan itu sahaja. Lantai yang dipadam diganti dengan tanah, lantai kayu di tingkat atas, atau tile air yang sama, jadi anda tidak akan sekali-kali mendapat lubang.
 - Set Semula: membina semula objek dari awal, seolah-olah baru diletakkan. Tile dan kemasannya (kertas dinding, cat, bingkai) dikekalkan, keadaannya kembali neutral: dapur dimatikan, pintu ditutup, bekas kembali kosong.
 
-Setiap tindakan meminta pengesahan terlebih dahulu, dan memberi amaran apabila sesebuah bekas akan kehilangan isinya.
-
 [h2]Penting[/h2]
 Ini ialah alat nyahpepijat: memadam atau menetapkan semula objek tidak boleh dibatalkan. Gunakannya dengan sedar, dan simpan sandaran simpanan anda jika anda tidak pasti.
 
 Sudah tentu saya tidak dapat menguji setiap senario: terdapat terlalu banyak tile, objek dan item dalam permainan ini, belum lagi mod. Jika sesuatu tidak berfungsi seperti yang dijangka, set semula yang tidak menjadi, objek yang sepatutnya ditanda tetapi tidak, atau apa sahaja, sila beritahu saya di ruangan komen dan saya akan cuba sedaya upaya untuk menanganinya.
 
 [h2]Soal Jawab[/h2]
+Q: Adakah selamat untuk menambah atau membuangnya di tengah simpanan?
+A: Ya. Tile Doctor tidak menyimpan apa-apa dalam dunia anda: ia direka untuk ditambah, membaiki petak yang rosak, kemudian dibuang.
+
 Q: Adakah ia berfungsi dalam multiplayer?
 A: Ya. Dalam mod pemain tunggal sesiapa sahaja boleh menggunakannya. Dalam multiplayer ia dikhaskan untuk admin, dan setiap tindakan disemak oleh pelayan.
 
@@ -31,7 +34,5 @@ A: Tidak. Data peta asal hanya boleh dibaca oleh enjin permainan. Tile Doctor be
 
 Q: Saya menemui kes yang tidak dikendalikan, apa yang perlu saya lakukan?
 A: Tulis di ruangan komen dengan lajur "Type" dan "Tile / item" bagi baris berkenaan, mod yang anda rasa menjadi puncanya jika berkaitan dan, jika boleh, ralat daripada console.txt anda (di C:\Users\NamaAnda\Zomboid).
-
-Mod ini tersedia dalam 29 bahasa.
 
 Jangan segan berkongsi maklum balas, laporan pepijat dan idea anda di ruangan komen, saya membaca semuanya.

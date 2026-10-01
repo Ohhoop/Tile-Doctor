@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "De tegel heeft geen afbeelding: het object is onzichtbaar.",
     "UI_TileDoctor_ConfirmRemove": "Wil je dit element verwijderen?\n%1\nDit kan niet ongedaan worden gemaakt.",
     "UI_TileDoctor_ConfirmReset": "Wil je dit element als nieuw resetten?\n%1\nDe huidige staat gaat verloren.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Het is een container: alle inhoud gaat verloren."
+    "UI_TileDoctor_ConfirmHoldsItems": "Het is een container: alle inhoud gaat verloren.",
+    "UI_TileDoctor_TooltipReset": "Vervangt dit element door een nieuwe kopie.",
+    "UI_TileDoctor_TooltipRemove": "Verwijdert dit element."
 }

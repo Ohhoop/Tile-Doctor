@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Dala lui nu are imagine: obiectul este invizibil.",
     "UI_TileDoctor_ConfirmRemove": "Vrei să ștergi acest element?\n%1\nAceastă acțiune nu poate fi anulată.",
     "UI_TileDoctor_ConfirmReset": "Vrei să resetezi acest element ca nou?\n%1\nStarea lui actuală se va pierde.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Este un recipient: tot conținutul lui se va pierde."
+    "UI_TileDoctor_ConfirmHoldsItems": "Este un recipient: tot conținutul lui se va pierde.",
+    "UI_TileDoctor_TooltipReset": "Înlocuiește acest element cu o copie nouă.",
+    "UI_TileDoctor_TooltipRemove": "Șterge acest element."
 }

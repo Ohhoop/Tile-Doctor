@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Strewberrie Strewberrie Strewberrie.",
     "UI_TileDoctor_ConfirmRemove": "Strewberrie Strewberrie?\n%1\nStrewberrie Strewberrie.",
     "UI_TileDoctor_ConfirmReset": "Strewberrie Strewberrie Strewberrie?\n%1\nStrewberrie Strewberrie.",
-    "UI_TileDoctor_ConfirmHoldsItems": "Strewberrie Strewberrie: Strewberrie Strewberrie."
+    "UI_TileDoctor_ConfirmHoldsItems": "Strewberrie Strewberrie: Strewberrie Strewberrie.",
+    "UI_TileDoctor_TooltipReset": "Strewberrie Strewberrie.",
+    "UI_TileDoctor_TooltipRemove": "Strewberrie."
 }

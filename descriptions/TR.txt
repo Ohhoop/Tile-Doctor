@@ -1,5 +1,7 @@
+[h2]Nedir[/h2]
 Tile Doctor bir geliştirme ve hata ayıklama aracıdır. Karakterinizin etrafındaki karelerde gerçekte ne bulunduğunu görmenizi ve bozuk olanları düzeltmenizi sağlar: görünmez çarpışmalar, kaldırılmış modlardan kalan artıklar, artık alınamayan veya kullanılamayan nesneler.
 
+[h2]Nasıl çalışır[/h2]
 Herhangi bir yere sağ tıklayın ve Tile Doctor'ı seçin. Karakterinizin etrafındaki 9 karede bulunan her şeyin tablosunu içeren bir pencere açılır ve sarı bir çerçeve dünyada taranan alanı gösterir. Tablo siz hareket ettikçe sizi takip eder.
 
 Her nesne, ceset ve araç için şunları gösterir:
@@ -15,14 +17,15 @@ Her satırda yapılabilecek işlemler:
 - Sil: yalnızca o nesneyi, cesedi, eşyayı veya aracı kaldırır. Silinen bir zeminin yerine toprak, üst katlarda ahşap zemin veya aynı su tile'ı konur, böylece asla bir delikle karşılaşmazsınız.
 - Sıfırla: nesneyi yeni yerleştirilmiş gibi sıfırdan yeniden oluşturur. Tile'ı ve kaplamaları (duvar kağıdı, boya, süsleme) korunur, durumu nötre döner: ocak kapanır, kapı kapanır, kap boşalır.
 
-Her işlem önce onay ister ve bir kap içindekileri kaybedecekse sizi uyarır.
-
 [h2]Önemli[/h2]
 Bu bir hata ayıklama aracıdır: nesneleri silmek veya sıfırlamak geri alınamaz. Bilinçli kullanın ve emin değilseniz kaydınızın bir yedeğini alın.
 
 Elbette her senaryoyu test edemedim: bu oyunda inanılmaz sayıda tile, nesne ve eşya var, modlardan bahsetmiyorum bile. Bir şey beklendiği gibi davranmazsa, ters giden bir sıfırlama, işaretlenmesi gerekirken işaretlenmeyen bir nesne ya da başka bir şey olursa, lütfen yorumlar bölümünde bana bildirin, ele almak için elimden geleni yapacağım.
 
 [h2]Soru ve Cevap[/h2]
+Q: Kayıt ortasında eklemek veya kaldırmak güvenli mi?
+A: Evet. Tile Doctor dünyana hiçbir şey kaydetmez: eklenmek, bozuk kareyi düzeltmek ve kaldırılmak için tasarlandı.
+
 Q: Çok oyunculu modda çalışıyor mu?
 A: Evet. Tek oyunculu modda herkes kullanabilir. Çok oyunculu modda yöneticilere ayrılmıştır ve her işlem sunucu tarafından denetlenir.
 
@@ -31,7 +34,5 @@ A: Hayır. Orijinal harita verisi yalnızca oyun motoru tarafından okunabilir. 
 
 Q: Ele almadığı bir durum buldum, ne yapmalıyım?
 A: Yorumlar bölümüne ilgili satırın "Tür" ve "Karo / eşya" sütunlarıyla, varsa geldiğini düşündüğünüz modla ve mümkünse console.txt dosyanızdaki hatayla (C:\Users\KullanıcıAdınız\Zomboid içinde) birlikte yazın.
-
-Mod 29 dilde mevcuttur.
 
 Geri bildirimlerinizi, hata raporlarınızı ve fikirlerinizi yorumlar bölümünde paylaşmaktan çekinmeyin, her şeyi okuyorum.

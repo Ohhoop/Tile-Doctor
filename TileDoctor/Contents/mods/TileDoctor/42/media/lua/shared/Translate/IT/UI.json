@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "Il suo tile non ha immagine: l'oggetto è invisibile.",
     "UI_TileDoctor_ConfirmRemove": "Vuoi eliminare questo elemento?\n%1\nL'operazione non può essere annullata.",
     "UI_TileDoctor_ConfirmReset": "Vuoi ripristinare questo elemento come nuovo?\n%1\nIl suo stato attuale andrà perso.",
-    "UI_TileDoctor_ConfirmHoldsItems": "È un contenitore: tutto il suo contenuto andrà perso."
+    "UI_TileDoctor_ConfirmHoldsItems": "È un contenitore: tutto il suo contenuto andrà perso.",
+    "UI_TileDoctor_TooltipReset": "Sostituisce questo elemento con una copia nuova.",
+    "UI_TileDoctor_TooltipRemove": "Elimina questo elemento."
 }

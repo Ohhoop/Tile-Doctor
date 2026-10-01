@@ -11,5 +11,7 @@
     "UI_TileDoctor_AlertNoTexture": "它的圖塊沒有圖像：物件是隱形的。",
     "UI_TileDoctor_ConfirmRemove": "要刪除此元素嗎？\n%1\n此操作無法復原。",
     "UI_TileDoctor_ConfirmReset": "要將此元素重置為全新狀態嗎？\n%1\n它目前的狀態將會遺失。",
-    "UI_TileDoctor_ConfirmHoldsItems": "這是一個容器：裡面的所有東西都會遺失。"
+    "UI_TileDoctor_ConfirmHoldsItems": "這是一個容器：裡面的所有東西都會遺失。",
+    "UI_TileDoctor_TooltipReset": "用全新副本取代此元素。",
+    "UI_TileDoctor_TooltipRemove": "刪除此元素。"
 }

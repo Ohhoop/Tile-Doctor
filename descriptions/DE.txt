@@ -1,5 +1,7 @@
+[h2]Was es ist[/h2]
 Tile Doctor ist ein Entwicklungs- und Debugging-Werkzeug. Damit siehst du, was wirklich auf den Feldern rund um deinen Charakter liegt, und kannst die kaputten reparieren: unsichtbare Kollisionen, Überreste entfernter Mods, Objekte, die sich nicht mehr aufheben oder benutzen lassen.
 
+[h2]So funktioniert es[/h2]
 Klicke irgendwo mit der rechten Maustaste und wähle Tile Doctor. Es öffnet sich ein Fenster mit einer Tabelle über alles auf den 9 Feldern rund um deinen Charakter, und ein gelber Umriss zeigt den gescannten Bereich in der Welt. Die Tabelle folgt dir, während du dich bewegst.
 
 Für jedes Objekt, jede Leiche und jedes Fahrzeug zeigt sie:
@@ -15,14 +17,15 @@ Mögliche Aktionen in jeder Zeile:
 - Löschen: entfernt genau dieses eine Objekt, diese Leiche, diesen Gegenstand oder dieses Fahrzeug. Ein gelöschter Boden wird durch Erde, in oberen Stockwerken durch einen Holzboden oder durch dasselbe Wasserfeld ersetzt, sodass nie ein Loch entsteht.
 - Zurücksetzen: baut das Objekt von Grund auf neu auf, als wäre es gerade erst platziert worden. Sein Tile und seine Oberflächen (Tapete, Farbe, Zierleisten) bleiben erhalten, sein Zustand kehrt in den Neutralzustand zurück: Ein Herd geht aus, eine Tür schließt sich, ein Behälter ist wieder leer.
 
-Jede Aktion fragt zuerst nach einer Bestätigung und warnt dich, wenn ein Behälter seinen Inhalt verlieren wird.
-
 [h2]Wichtig[/h2]
 Dies ist ein Debugging-Werkzeug: Das Löschen oder Zurücksetzen von Objekten kann nicht rückgängig gemacht werden. Setze es bewusst ein und lege eine Sicherung deines Spielstands an, wenn du unsicher bist.
 
 Ich konnte natürlich nicht jedes einzelne Szenario testen: Es gibt eine lächerliche Menge an Feldern, Objekten und Gegenständen in diesem Spiel, und da haben wir noch nicht einmal von Mods gesprochen. Wenn sich etwas nicht wie erwartet verhält, ein Zurücksetzen schiefgeht, ein Objekt nicht markiert wird, obwohl es sollte, oder irgendetwas anderes, sag mir bitte im Kommentarbereich Bescheid, und ich tue mein Bestes, um es zu berücksichtigen.
 
 [h2]Fragen und Antworten[/h2]
+Q: Kann ich es mitten in einem Spielstand hinzufügen oder entfernen?
+A: Ja. Tile Doctor speichert nichts in deiner Welt: Es ist dafür gemacht, hinzugefügt zu werden, das beschädigte Feld zu reparieren und wieder entfernt zu werden.
+
 Q: Funktioniert es im Multiplayer?
 A: Ja. Im Einzelspielermodus kann es jeder benutzen. Im Multiplayer ist es Admins vorbehalten, und jede Aktion wird vom Server geprüft.
 
@@ -31,7 +34,5 @@ A: Nein. Die ursprünglichen Kartendaten kann nur die Spiel-Engine lesen. Tile D
 
 Q: Ich habe einen Fall gefunden, den es nicht behandelt, was soll ich tun?
 A: Poste ihn im Kommentarbereich mit den Spalten "Typ" und "Tile / Gegenstand" der betreffenden Zeile, gegebenenfalls dem Mod, von dem er deiner Meinung nach stammt, und wenn möglich dem Fehler aus deiner console.txt (unter C:\Users\DeinName\Zomboid).
-
-Der Mod ist in 29 Sprachen verfügbar.
 
 Teile gerne dein Feedback, deine Fehlerberichte und Ideen im Kommentarbereich, ich lese alles.
