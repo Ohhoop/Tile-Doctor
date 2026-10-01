@@ -38,3 +38,6 @@ A: Postează-l în secțiunea de comentarii cu coloanele "Tip" și "Dală / obie
 Nu ezita să îți împărtășești părerile, rapoartele de bug și ideile în secțiunea de comentarii, citesc tot.
 
 [img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3811138128
+Mod ID: TileDoctor

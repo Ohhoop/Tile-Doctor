@@ -38,3 +38,6 @@ A: Đăng trong phần bình luận kèm cột "Type" và "Tile / item" của h�
 Cứ thoải mái chia sẻ góp ý, báo lỗi và ý tưởng trong phần bình luận, tôi đọc tất cả.
 
 [img]https://i.imgur.com/lja52Fs.gif[/img]
+
+Workshop ID: 3811138128
+Mod ID: TileDoctor
