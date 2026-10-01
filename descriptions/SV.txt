@@ -1,5 +1,5 @@
 [h2]Vad det är[/h2]
-Tile Doctor är ett utvecklings- och felsökningsverktyg. Det låter dig se vad som verkligen finns på rutorna runt din karaktär och laga de som är trasiga: osynliga kollisioner, rester från borttagna mods, föremål som inte längre går att plocka upp eller använda.
+Tile Doctor är ett utvecklings- och felsökningsverktyg. Det låter dig se vad som verkligen finns på rutorna runt din karaktär och laga de som är trasiga: osynliga kollisioner, rester från borttagna eller buggiga mods, föremål som inte längre går att plocka upp eller använda, osv.
 
 [h2]Så fungerar det[/h2]
 Högerklicka var som helst och välj Tile Doctor. Ett fönster öppnas med en tabell över allt på de 9 rutorna runt din karaktär, och en gul kontur visar det skannade området i världen. Tabellen följer med dig när du rör dig.
@@ -9,7 +9,7 @@ För varje objekt, lik och fordon visas:
 - Dess typ och namn
 - Dess tile, eller föremålstypen för föremål på marken
 - Dess kollisions- och strukturegenskaper
-- En röd varning när något ser trasigt ut (saknad tile, tile från en borttagen mod, osynligt objekt)
+- En röd varningssymbol när något ser trasigt ut (saknad tile, tile från en borttagen mod, osynligt objekt). Upptäckten är inte perfekt: ett markerat objekt kan vara i ordning och ett trasigt kan missas, den hjälper dig bara att hitta problemet snabbare.
 
 Håll muspekaren över en rad för att markera objektet med en kontur i världen. Var försiktig: en kontur kan vara dold när en vägg eller något annat skymmer sikten mellan dig och objektet.
 

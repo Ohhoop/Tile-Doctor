@@ -1,5 +1,5 @@
 [h2]Ce este[/h2]
-Tile Doctor este un instrument de dezvoltare și depanare. Îți arată ce se află cu adevărat pe dalele din jurul personajului tău și îți permite să le repari pe cele stricate: coliziuni invizibile, resturi de la moduri eliminate, obiecte care nu mai pot fi luate sau folosite.
+Tile Doctor este un instrument de dezvoltare și depanare. Îți arată ce se află cu adevărat pe dalele din jurul personajului tău și îți permite să le repari pe cele stricate: coliziuni invizibile, resturi de la moduri eliminate sau defecte, obiecte care nu mai pot fi luate sau folosite, etc.
 
 [h2]Cum funcționează[/h2]
 Dă clic dreapta oriunde și alege Tile Doctor. Se deschide o fereastră cu un tabel cu tot ce se află pe cele 9 dale din jurul personajului tău, iar un contur galben arată zona scanată în lume. Tabelul te urmează în timp ce te deplasezi.
@@ -9,7 +9,7 @@ Pentru fiecare obiect, cadavru și vehicul afișează:
 - Tipul și numele
 - Dala sa, sau tipul de obiect pentru obiectele de pe jos
 - Proprietățile de coliziune și de structură
-- O alertă roșie când ceva pare stricat (dală lipsă, dală dintr-un mod eliminat, obiect invizibil)
+- Un simbol de alertă roșu când ceva pare stricat (dală lipsă, dală dintr-un mod eliminat, obiect invizibil). Detectarea nu este perfectă: un obiect semnalat poate fi în regulă, iar unul stricat poate scăpa, ea doar te ajută să găsești problema mai repede.
 
 Treci cu mouse-ul peste un rând pentru a evidenția acel obiect în lume. Atenție: conturul poate fi ascuns când un perete sau altceva blochează vederea dintre tine și obiect.
 

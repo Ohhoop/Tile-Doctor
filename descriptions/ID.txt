@@ -1,5 +1,5 @@
 [h2]Apa ini[/h2]
-Tile Doctor adalah alat pengembangan dan debugging. Alat ini memungkinkanmu melihat apa yang sebenarnya ada di petak-petak di sekitar karaktermu, dan memperbaiki yang rusak: tabrakan tak terlihat, sisa dari mod yang sudah dihapus, objek yang tidak bisa diambil atau dipakai lagi.
+Tile Doctor adalah alat pengembangan dan debugging. Alat ini memungkinkanmu melihat apa yang sebenarnya ada di petak-petak di sekitar karaktermu, dan memperbaiki yang rusak: tabrakan tak terlihat, sisa dari mod yang sudah dihapus atau bermasalah, objek yang tidak bisa diambil atau dipakai lagi, dll.
 
 [h2]Cara kerjanya[/h2]
 Klik kanan di mana saja dan pilih Tile Doctor. Sebuah jendela terbuka berisi tabel semua yang ada di 9 petak di sekitar karaktermu, dan garis kuning menandai area yang dipindai di dunia. Tabel ini mengikutimu saat kamu bergerak.
@@ -9,7 +9,7 @@ Untuk setiap objek, mayat, dan kendaraan, tabel menampilkan:
 - Jenis dan namanya
 - Tile-nya, atau jenis item untuk item di tanah
 - Properti tabrakan dan strukturnya
-- Peringatan merah jika ada yang tampak rusak (tile hilang, tile dari mod yang sudah dihapus, objek tak terlihat)
+- Simbol peringatan merah jika ada yang tampak rusak (tile hilang, tile dari mod yang sudah dihapus, objek tak terlihat). Deteksinya tidak sempurna: objek yang ditandai bisa saja baik-baik saja dan yang rusak bisa terlewat, ini hanya membantumu menemukan masalah lebih cepat.
 
 Arahkan kursor ke sebuah baris untuk menandai objek itu di dunia. Hati-hati: garis penanda bisa tersembunyi jika dinding atau benda lain menghalangi pandangan antara kamu dan objek tersebut.
 

@@ -1,5 +1,5 @@
 [h2]Qué es[/h2]
-Tile Doctor es una herramienta de desarrollo y depuración. Te permite ver lo que realmente hay en los tiles alrededor de tu personaje y arreglar los que están rotos: colisiones invisibles, restos de mods que ya quitaste, objetos que ya no se pueden agarrar ni usar.
+Tile Doctor es una herramienta de desarrollo y depuración. Te permite ver lo que realmente hay en los tiles alrededor de tu personaje y arreglar los que están rotos: colisiones invisibles, restos de mods que ya quitaste o con errores, objetos que ya no se pueden agarrar ni usar, etc.
 
 [h2]Cómo funciona[/h2]
 Haz clic derecho en cualquier lugar y elige Tile Doctor. Se abre una ventana con una tabla de todo lo que hay en los 9 tiles alrededor de tu personaje, y un contorno amarillo muestra en el mundo el área analizada. La tabla te sigue mientras te mueves.
@@ -9,7 +9,7 @@ Para cada objeto, cadáver y vehículo muestra:
 - Su tipo y su nombre
 - Su tile, o su tipo de ítem para los ítems en el suelo
 - Sus propiedades de colisión y de estructura
-- Una alerta roja cuando algo parece roto (tile faltante, tile de un mod que se quitó, objeto invisible)
+- Un símbolo de alerta rojo cuando algo parece roto (tile faltante, tile de un mod que se quitó, objeto invisible). La detección no es perfecta: un objeto marcado puede estar bien y uno roto puede pasar desapercibido, solo sirve para ayudarte a encontrar el problema más rápido.
 
 Pasa el mouse sobre una fila para resaltar ese objeto en el mundo. Ojo: el contorno puede quedar oculto cuando una pared u otra cosa bloquea la vista entre tú y el objeto.
 

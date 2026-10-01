@@ -1,5 +1,5 @@
 [h2]Ce que c'est[/h2]
-Tile Doctor est un outil de développement et de débogage. Il vous permet de voir ce qui se trouve réellement sur les cases autour de votre personnage, et de réparer celles qui sont cassées : collisions invisibles, restes de mods retirés, objets qu'on ne peut plus ramasser ni utiliser.
+Tile Doctor est un outil de développement et de débogage. Il vous permet de voir ce qui se trouve réellement sur les cases autour de votre personnage, et de réparer celles qui sont cassées : collisions invisibles, restes de mods retirés ou buggés, objets qu'on ne peut plus ramasser ni utiliser, etc.
 
 [h2]Comment ça marche[/h2]
 Faites un clic droit n'importe où et choisissez Tile Doctor. Une fenêtre s'ouvre avec un tableau de tout ce qui se trouve sur les 9 cases autour de votre personnage, et un contour jaune indique la zone analysée dans le monde. Le tableau vous suit pendant vos déplacements.
@@ -9,7 +9,7 @@ Pour chaque objet, cadavre et véhicule, il affiche :
 - Son type et son nom
 - Sa tuile, ou son type d'objet pour les objets au sol
 - Ses propriétés de collision et de structure
-- Une alerte rouge quand quelque chose semble cassé (tuile manquante, tuile d'un mod retiré, objet invisible)
+- Un symbole d'alerte rouge quand quelque chose semble cassé (tuile manquante, tuile d'un mod retiré, objet invisible). La détection n'est pas parfaite : un objet signalé peut être correct et un objet cassé peut passer inaperçu, elle sert seulement à trouver le problème plus vite.
 
 Survolez une ligne pour faire apparaître le contour de cet objet dans le monde. Attention : un contour peut être masqué lorsqu'un mur ou autre chose bloque la vue entre vous et l'objet.
 

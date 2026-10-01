@@ -1,5 +1,5 @@
 [h2]Mi ez[/h2]
-A Tile Doctor egy fejlesztői és hibakereső eszköz. Megmutatja, mi van valójában a karaktered körüli mezőkön, és lehetővé teszi a hibás mezők javítását: láthatatlan ütközések, eltávolított modok maradványai, olyan tárgyak, amelyeket már nem lehet felvenni vagy használni.
+A Tile Doctor egy fejlesztői és hibakereső eszköz. Megmutatja, mi van valójában a karaktered körüli mezőkön, és lehetővé teszi a hibás mezők javítását: láthatatlan ütközések, eltávolított vagy hibás modok maradványai, olyan tárgyak, amelyeket már nem lehet felvenni vagy használni stb.
 
 [h2]Hogyan működik[/h2]
 Kattints jobb gombbal bárhol, és válaszd a Tile Doctor lehetőséget. Megnyílik egy ablak egy táblázattal mindenről, ami a karaktered körüli 9 mezőn található, egy sárga körvonal pedig a világban jelzi a vizsgált területet. A táblázat követ, ahogy mozogsz.
@@ -9,7 +9,7 @@ Minden tárgynál, holttestnél és járműnél megjeleníti:
 - A típusát és a nevét
 - A csempéjét, vagy a földön lévő tárgyaknál a tárgytípusát
 - Az ütközési és szerkezeti tulajdonságait
-- Egy piros figyelmeztetést, ha valami hibásnak tűnik (hiányzó csempe, eltávolított modból származó csempe, láthatatlan objektum)
+- Egy piros figyelmeztető jelet, ha valami hibásnak tűnik (hiányzó csempe, eltávolított modból származó csempe, láthatatlan objektum). Az észlelés nem tökéletes: egy megjelölt objektum lehet rendben, egy hibás pedig elkerülheti a figyelmet, csak abban segít, hogy gyorsabban megtaláld a problémát.
 
 Vidd az egeret egy sor fölé, és az adott objektum körvonalat kap a világban. Vigyázat: a körvonal rejtve maradhat, ha egy fal vagy valami más eltakarja a rálátást közted és az objektum között.
 

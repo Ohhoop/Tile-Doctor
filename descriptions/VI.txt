@@ -1,5 +1,5 @@
 [h2]Đây là gì[/h2]
-Tile Doctor là một công cụ phát triển và gỡ lỗi. Nó cho phép bạn xem những gì thật sự nằm trên các ô quanh nhân vật và sửa những ô bị lỗi: va chạm vô hình, tàn dư từ các mod đã gỡ, vật thể không thể nhặt hay sử dụng được nữa.
+Tile Doctor là một công cụ phát triển và gỡ lỗi. Nó cho phép bạn xem những gì thật sự nằm trên các ô quanh nhân vật và sửa những ô bị lỗi: va chạm vô hình, tàn dư từ các mod đã gỡ hoặc bị lỗi, vật thể không thể nhặt hay sử dụng được nữa, v.v.
 
 [h2]Cách hoạt động[/h2]
 Nhấp chuột phải ở bất kỳ đâu và chọn Tile Doctor. Một cửa sổ mở ra với bảng liệt kê mọi thứ trên 9 ô quanh nhân vật, và một đường viền vàng hiển thị vùng được quét trong thế giới. Bảng sẽ cập nhật theo khi bạn di chuyển.
@@ -9,7 +9,7 @@ Với mỗi vật thể, xác chết và phương tiện, nó hiển thị:
 - Loại và tên
 - Tile của nó, hoặc loại vật phẩm đối với vật phẩm trên mặt đất
 - Thuộc tính va chạm và cấu trúc
-- Cảnh báo đỏ khi có gì đó có vẻ bị lỗi (thiếu tile, tile từ mod đã gỡ, vật thể vô hình)
+- Biểu tượng cảnh báo đỏ khi có gì đó có vẻ bị lỗi (thiếu tile, tile từ mod đã gỡ, vật thể vô hình). Việc phát hiện không hoàn hảo: vật thể bị đánh dấu có thể vẫn ổn và vật thể lỗi có thể bị bỏ sót, nó chỉ giúp bạn tìm ra vấn đề nhanh hơn.
 
 Di chuột lên một hàng để tô viền vật thể đó trong thế giới. Lưu ý: đường viền có thể bị che khi một bức tường hoặc thứ gì khác chắn tầm nhìn giữa bạn và vật thể.
 

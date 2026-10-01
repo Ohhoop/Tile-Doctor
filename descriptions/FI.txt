@@ -1,5 +1,5 @@
 [h2]Mikä se on[/h2]
-Tile Doctor on kehitys- ja vianetsintätyökalu. Sillä näet, mitä hahmosi ympärillä olevilla ruuduilla todella on, ja voit korjata rikkinäiset: näkymättömät törmäykset, poistettujen modien jäänteet sekä esineet, joita ei voi enää poimia tai käyttää.
+Tile Doctor on kehitys- ja vianetsintätyökalu. Sillä näet, mitä hahmosi ympärillä olevilla ruuduilla todella on, ja voit korjata rikkinäiset: näkymättömät törmäykset, poistettujen tai viallisten modien jäänteet sekä esineet, joita ei voi enää poimia tai käyttää jne.
 
 [h2]Miten se toimii[/h2]
 Napsauta hiiren oikealla painikkeella missä tahansa ja valitse Tile Doctor. Avautuu ikkuna, jossa on taulukko kaikesta hahmosi ympärillä olevilla 9 ruudulla, ja keltainen ääriviiva näyttää skannatun alueen maailmassa. Taulukko seuraa sinua liikkuessasi.
@@ -9,7 +9,7 @@ Jokaisesta objektista, ruumiista ja ajoneuvosta näytetään:
 - Sen tyyppi ja nimi
 - Sen tile, tai maassa olevien esineiden kohdalla esinetyyppi
 - Sen törmäys- ja rakenneominaisuudet
-- Punainen hälytys, kun jokin näyttää rikkinäiseltä (puuttuva tile, poistetun modin tile, näkymätön objekti)
+- Punainen hälytyssymboli, kun jokin näyttää rikkinäiseltä (puuttuva tile, poistetun modin tile, näkymätön objekti). Tunnistus ei ole täydellinen: merkitty objekti voi olla kunnossa ja rikkinäinen voi jäädä huomaamatta, se vain auttaa löytämään ongelman nopeammin.
 
 Vie hiiri rivin päälle, niin objekti korostetaan ääriviivalla maailmassa. Huomaa: ääriviiva voi jäädä piiloon, jos seinä tai jokin muu peittää näkyvyyden sinun ja objektin välillä.
 

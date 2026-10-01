@@ -1,5 +1,5 @@
 [h2]Czym jest[/h2]
-Tile Doctor to narzędzie deweloperskie i debugujące. Pozwala zobaczyć, co naprawdę znajduje się na polach wokół twojej postaci, i naprawić te, które są zepsute: niewidzialne kolizje, pozostałości po usuniętych modach, obiekty, których nie da się już podnieść ani użyć.
+Tile Doctor to narzędzie deweloperskie i debugujące. Pozwala zobaczyć, co naprawdę znajduje się na polach wokół twojej postaci, i naprawić te, które są zepsute: niewidzialne kolizje, pozostałości po usuniętych lub zbugowanych modach, obiekty, których nie da się już podnieść ani użyć itp.
 
 [h2]Jak to działa[/h2]
 Kliknij prawym przyciskiem w dowolnym miejscu i wybierz Tile Doctor. Otworzy się okno z tabelą wszystkiego, co znajduje się na 9 polach wokół twojej postaci, a żółty obrys pokaże w świecie skanowany obszar. Tabela podąża za tobą, gdy się poruszasz.
@@ -9,7 +9,7 @@ Dla każdego obiektu, zwłok i pojazdu pokazuje:
 - Jego typ i nazwę
 - Jego kafelek lub typ przedmiotu w przypadku przedmiotów na ziemi
 - Jego właściwości kolizji i konstrukcji
-- Czerwone ostrzeżenie, gdy coś wygląda na zepsute (brakujący kafelek, kafelek z usuniętego moda, niewidoczny obiekt)
+- Czerwony symbol ostrzeżenia, gdy coś wygląda na zepsute (brakujący kafelek, kafelek z usuniętego moda, niewidoczny obiekt). Wykrywanie nie jest idealne: oznaczony obiekt może być w porządku, a zepsuty może zostać pominięty, to tylko pomoc w szybszym znalezieniu problemu.
 
 Najedź na wiersz, aby obrysować ten obiekt w świecie. Uwaga: obrys może być ukryty, gdy ściana lub coś innego zasłania widok między tobą a obiektem.
 

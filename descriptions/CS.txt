@@ -1,5 +1,5 @@
 [h2]Co to je[/h2]
-Tile Doctor je nástroj pro vývoj a ladění. Umožňuje vám podívat se, co se skutečně nachází na dlaždicích kolem vaší postavy, a opravit ty, které jsou rozbité: neviditelné kolize, pozůstatky odebraných modů, objekty, které už nejde sebrat ani použít.
+Tile Doctor je nástroj pro vývoj a ladění. Umožňuje vám podívat se, co se skutečně nachází na dlaždicích kolem vaší postavy, a opravit ty, které jsou rozbité: neviditelné kolize, pozůstatky odebraných nebo chybných modů, objekty, které už nejde sebrat ani použít atd.
 
 [h2]Jak to funguje[/h2]
 Klikněte kamkoli pravým tlačítkem a zvolte Tile Doctor. Otevře se okno s tabulkou všeho, co leží na 9 dlaždicích kolem vaší postavy, a žlutý obrys ukazuje ve světě prohledávanou oblast. Tabulka vás při pohybu následuje.
@@ -9,7 +9,7 @@ U každého objektu, mrtvoly a vozidla zobrazuje:
 - Jeho typ a název
 - Jeho dlaždici, nebo typ předmětu u předmětů na zemi
 - Jeho vlastnosti kolize a konstrukce
-- Červené upozornění, když něco vypadá rozbitě (chybějící dlaždice, dlaždice z odebraného modu, neviditelný objekt)
+- Červený symbol upozornění, když něco vypadá rozbitě (chybějící dlaždice, dlaždice z odebraného modu, neviditelný objekt). Detekce není dokonalá: označený objekt může být v pořádku a rozbitý může uniknout, slouží jen k tomu, abyste problém našli rychleji.
 
 Najeďte myší na řádek a daný objekt se ve světě zvýrazní obrysem. Pozor: obrys může být skrytý, když výhled mezi vámi a objektem blokuje zeď nebo něco jiného.
 

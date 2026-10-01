@@ -1,5 +1,5 @@
 [h2]Nedir[/h2]
-Tile Doctor bir geliştirme ve hata ayıklama aracıdır. Karakterinizin etrafındaki karelerde gerçekte ne bulunduğunu görmenizi ve bozuk olanları düzeltmenizi sağlar: görünmez çarpışmalar, kaldırılmış modlardan kalan artıklar, artık alınamayan veya kullanılamayan nesneler.
+Tile Doctor bir geliştirme ve hata ayıklama aracıdır. Karakterinizin etrafındaki karelerde gerçekte ne bulunduğunu görmenizi ve bozuk olanları düzeltmenizi sağlar: görünmez çarpışmalar, kaldırılmış veya hatalı modlardan kalan artıklar, artık alınamayan veya kullanılamayan nesneler vb.
 
 [h2]Nasıl çalışır[/h2]
 Herhangi bir yere sağ tıklayın ve Tile Doctor'ı seçin. Karakterinizin etrafındaki 9 karede bulunan her şeyin tablosunu içeren bir pencere açılır ve sarı bir çerçeve dünyada taranan alanı gösterir. Tablo siz hareket ettikçe sizi takip eder.
@@ -9,7 +9,7 @@ Her nesne, ceset ve araç için şunları gösterir:
 - Türü ve adı
 - Tile'ı, yerdeki eşyalar için ise eşya türü
 - Çarpışma ve yapı özellikleri
-- Bir şey bozuk göründüğünde kırmızı bir uyarı (eksik tile, kaldırılmış bir moddan gelen tile, görünmez nesne)
+- Bir şey bozuk göründüğünde kırmızı bir uyarı simgesi (eksik tile, kaldırılmış bir moddan gelen tile, görünmez nesne). Tespit kusursuz değildir: işaretlenen bir nesne sorunsuz olabilir, bozuk bir nesne de gözden kaçabilir; yalnızca sorunu daha hızlı bulmanıza yardımcı olur.
 
 Bir satırın üzerine gelerek o nesneyi dünyada çerçeveleyin. Dikkat: sizinle nesne arasında bir duvar veya başka bir şey görüşü engellediğinde çerçeve gizlenebilir.
 

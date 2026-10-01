@@ -1,5 +1,5 @@
 [h2]Was es ist[/h2]
-Tile Doctor ist ein Entwicklungs- und Debugging-Werkzeug. Damit siehst du, was wirklich auf den Feldern rund um deinen Charakter liegt, und kannst die kaputten reparieren: unsichtbare Kollisionen, Überreste entfernter Mods, Objekte, die sich nicht mehr aufheben oder benutzen lassen.
+Tile Doctor ist ein Entwicklungs- und Debugging-Werkzeug. Damit siehst du, was wirklich auf den Feldern rund um deinen Charakter liegt, und kannst die kaputten reparieren: unsichtbare Kollisionen, Überreste entfernter oder fehlerhafter Mods, Objekte, die sich nicht mehr aufheben oder benutzen lassen, usw.
 
 [h2]So funktioniert es[/h2]
 Klicke irgendwo mit der rechten Maustaste und wähle Tile Doctor. Es öffnet sich ein Fenster mit einer Tabelle über alles auf den 9 Feldern rund um deinen Charakter, und ein gelber Umriss zeigt den gescannten Bereich in der Welt. Die Tabelle folgt dir, während du dich bewegst.
@@ -9,7 +9,7 @@ Für jedes Objekt, jede Leiche und jedes Fahrzeug zeigt sie:
 - Seinen Typ und Namen
 - Sein Tile, oder bei Gegenständen auf dem Boden den Gegenstandstyp
 - Seine Kollisions- und Struktureigenschaften
-- Eine rote Warnung, wenn etwas kaputt aussieht (fehlendes Tile, Tile aus einem entfernten Mod, unsichtbares Objekt)
+- Ein rotes Warnsymbol, wenn etwas kaputt aussieht (fehlendes Tile, Tile aus einem entfernten Mod, unsichtbares Objekt). Die Erkennung ist nicht perfekt: Ein markiertes Objekt kann in Ordnung sein und ein kaputtes kann übersehen werden, sie hilft dir nur, das Problem schneller zu finden.
 
 Fahre mit der Maus über eine Zeile, um dieses Objekt in der Welt zu umranden. Vorsicht: Ein Umriss kann verdeckt sein, wenn eine Wand oder etwas anderes die Sicht zwischen dir und dem Objekt versperrt.
 
