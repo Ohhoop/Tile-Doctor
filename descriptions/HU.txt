@@ -36,3 +36,5 @@ Q: Találtam egy esetet, amelyet nem kezel, mit tegyek?
 A: Írd meg a hozzászólásokban az adott sor Típus és Csempe / tárgy oszlopával, azzal a moddal, amelyből szerinted származik (ha van ilyen), és ha lehetséges, a console.txt fájlodban lévő hibával (a C:\Users\Felhasznalonev\Zomboid mappában).
 
 Nyugodtan oszd meg a visszajelzéseidet, hibajelentéseidet és ötleteidet a hozzászólásokban, mindent elolvasok.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

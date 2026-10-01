@@ -36,3 +36,5 @@ Q: Ich habe einen Fall gefunden, den es nicht behandelt, was soll ich tun?
 A: Poste ihn im Kommentarbereich mit den Spalten "Typ" und "Tile / Gegenstand" der betreffenden Zeile, gegebenenfalls dem Mod, von dem er deiner Meinung nach stammt, und wenn möglich dem Fehler aus deiner console.txt (unter C:\Users\DeinName\Zomboid).
 
 Teile gerne dein Feedback, deine Fehlerberichte und Ideen im Kommentarbereich, ich lese alles.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

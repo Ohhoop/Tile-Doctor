@@ -36,3 +36,5 @@ Q: Saya menemui kes yang tidak dikendalikan, apa yang perlu saya lakukan?
 A: Tulis di ruangan komen dengan lajur "Type" dan "Tile / item" bagi baris berkenaan, mod yang anda rasa menjadi puncanya jika berkaitan dan, jika boleh, ralat daripada console.txt anda (di C:\Users\NamaAnda\Zomboid).
 
 Jangan segan berkongsi maklum balas, laporan pepijat dan idea anda di ruangan komen, saya membaca semuanya.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

@@ -36,3 +36,5 @@ Q: Jeg har fundet et tilfælde, det ikke håndterer, hvad skal jeg gøre?
 A: Skriv det i kommentarfeltet med kolonnerne "Type" og "Tile / genstand" fra den pågældende række, den mod, du tror, det stammer fra, hvis relevant, og om muligt fejlen fra din console.txt (i C:\Users\DitNavn\Zomboid).
 
 Del gerne din feedback, dine fejlrapporter og idéer i kommentarfeltet, jeg læser alt.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

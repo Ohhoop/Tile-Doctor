@@ -36,3 +36,5 @@ Q: Jag har hittat ett fall som det inte hanterar, vad ska jag göra?
 A: Skriv det i kommentarsfältet med kolumnerna "Type" och "Tile / item" från raden i fråga, den mod du tror att det kommer från om det är aktuellt och, om möjligt, felet från din console.txt (i C:\Users\DittNamn\Zomboid).
 
 Dela gärna din feedback, dina buggrapporter och idéer i kommentarsfältet, jag läser allt.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

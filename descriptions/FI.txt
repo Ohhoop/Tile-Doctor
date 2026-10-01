@@ -36,3 +36,5 @@ Q: Löysin tapauksen, jota se ei käsittele, mitä teen?
 A: Kirjoita siitä kommenttiosioon kyseisen rivin sarakkeiden "Tyyppi" ja "Tile / esine" tiedoilla, mainitse modi, josta arvelet sen olevan peräisin, jos se on olennaista, ja liitä mahdollisuuksien mukaan virhe console.txt-tiedostostasi (sijainti C:\Users\Nimesi\Zomboid).
 
 Jaa palautteesi, bugiraporttisi ja ideasi kommenttiosiossa, luen kaiken.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

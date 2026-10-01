@@ -39,5 +39,7 @@ description=Q: I found a case it does not handle, what should I do?
 description=A: Post it in the comment section with the Type and Tile columns of the row in question, the mod you think it comes from if applicable and, if possible, the error from your console.txt (in C:\Users\YourName\Zomboid).
 description=
 description=Feel free to share your feedback, bug reports and ideas in the comment section, I read everything.
+description=
+description=[img]https://i.imgur.com/lja52Fs.gif[/img]
 tags=Build 42;Misc;Multiplayer
 visibility=public

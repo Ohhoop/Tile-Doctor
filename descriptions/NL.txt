@@ -36,3 +36,5 @@ Q: Ik heb een geval gevonden dat het niet afhandelt, wat moet ik doen?
 A: Plaats het in de reacties met de kolommen "Type" en "Tegel / voorwerp" van de betreffende rij, de mod waar het volgens jou vandaan komt als dat van toepassing is en, indien mogelijk, de fout uit je console.txt (in C:\Users\JouwNaam\Zomboid).
 
 Deel gerust je feedback, bugmeldingen en ideeën in de reacties, ik lees alles.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

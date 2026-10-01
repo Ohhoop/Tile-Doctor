@@ -36,3 +36,5 @@ Q: Saya menemukan kasus yang tidak ditangani, apa yang harus saya lakukan?
 A: Tulis di bagian komentar dengan kolom "Tipe" dan "Tile / barang" dari baris yang bersangkutan, mod yang menurutmu menjadi asalnya jika ada, dan jika memungkinkan, error dari console.txt (di C:\Users\NamaKamu\Zomboid).
 
 Jangan ragu membagikan masukan, laporan bug, dan idemu di bagian komentar, saya membaca semuanya.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

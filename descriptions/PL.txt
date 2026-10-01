@@ -36,3 +36,5 @@ Q: Znalazłem przypadek, którego nie obsługuje, co mam zrobić?
 A: Napisz o nim w komentarzach, podając kolumny Typ i Kafelek / przedmiot z danego wiersza, mod, z którego twoim zdaniem pochodzi (jeśli dotyczy), oraz, jeśli to możliwe, błąd ze swojego console.txt (w C:\Users\TwojaNazwa\Zomboid).
 
 Śmiało dziel się opiniami, zgłoszeniami błędów i pomysłami w komentarzach, czytam wszystko.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

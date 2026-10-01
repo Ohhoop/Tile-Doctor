@@ -36,3 +36,5 @@ Q: Ele almadığı bir durum buldum, ne yapmalıyım?
 A: Yorumlar bölümüne ilgili satırın "Tür" ve "Karo / eşya" sütunlarıyla, varsa geldiğini düşündüğünüz modla ve mümkünse console.txt dosyanızdaki hatayla (C:\Users\KullanıcıAdınız\Zomboid içinde) birlikte yazın.
 
 Geri bildirimlerinizi, hata raporlarınızı ve fikirlerinizi yorumlar bölümünde paylaşmaktan çekinmeyin, her şeyi okuyorum.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

@@ -36,3 +36,5 @@ Q: Ho trovato un caso che non gestisce, cosa devo fare?
 A: Scrivilo nella sezione commenti con le colonne "Tipo" e "Tile / oggetto" della riga in questione, il mod da cui pensi che provenga se è il caso e, se possibile, l'errore dal tuo console.txt (in C:\Users\TuoNome\Zomboid).
 
 Sentiti libero di condividere feedback, segnalazioni di bug e idee nella sezione commenti, leggo tutto.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

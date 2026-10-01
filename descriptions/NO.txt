@@ -36,3 +36,5 @@ Q: Jeg har funnet et tilfelle det ikke håndterer, hva skal jeg gjøre?
 A: Skriv det i kommentarfeltet med kolonnene "Type" og "Flis / gjenstand" fra den aktuelle raden, modden du tror det kommer fra hvis det er relevant, og om mulig feilen fra console.txt (i C:\Users\DittNavn\Zomboid).
 
 Del gjerne tilbakemeldinger, feilrapporter og idéer i kommentarfeltet, jeg leser alt.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]

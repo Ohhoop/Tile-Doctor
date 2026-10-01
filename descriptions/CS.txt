@@ -36,3 +36,5 @@ Q: Našel jsem případ, který nezvládá, co mám dělat?
 A: Napište ho do komentářů se sloupci Typ a Dlaždice / předmět z daného řádku, s modem, ze kterého podle vás pochází (pokud nějaký), a pokud možno i s chybou ze svého console.txt (v C:\Users\VaseJmeno\Zomboid).
 
 Klidně sdílejte svou zpětnou vazbu, hlášení chyb a nápady v komentářích, čtu všechno.
+
+[img]https://i.imgur.com/lja52Fs.gif[/img]
