@@ -1,6 +1,8 @@
 [h2]Apa itu[/h2]
 Tile Doctor ialah alat pembangunan dan nyahpepijat. Ia membolehkan anda melihat apa yang sebenarnya berada pada petak di sekeliling watak anda, dan membaiki yang rosak: perlanggaran yang tidak kelihatan, sisa daripada mod yang telah dibuang atau rosak, objek yang tidak lagi boleh diambil atau digunakan, dll.
 
+Jika anda mencari alat untuk menyahpepijat item yang rosak di dalam bekas, lihatlah [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url].
+
 [h2]Cara ia berfungsi[/h2]
 Klik kanan di mana-mana dan pilih Tile Doctor. Satu tetingkap dibuka dengan jadual segala-galanya pada 9 petak di sekeliling watak anda, dan garis kuning menandakan kawasan yang diimbas di dalam dunia. Jadual ini mengikut anda semasa anda bergerak.
 

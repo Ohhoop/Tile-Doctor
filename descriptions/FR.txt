@@ -1,6 +1,8 @@
 [h2]Ce que c'est[/h2]
 Tile Doctor est un outil de développement et de débogage. Il vous permet de voir ce qui se trouve réellement sur les cases autour de votre personnage, et de réparer celles qui sont cassées : collisions invisibles, restes de mods retirés ou buggés, objets qu'on ne peut plus ramasser ni utiliser, etc.
 
+Si vous cherchez un outil pour déboguer des objets cassés dans des conteneurs, jetez un œil à [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url].
+
 [h2]Comment ça marche[/h2]
 Faites un clic droit n'importe où et choisissez Tile Doctor. Une fenêtre s'ouvre avec un tableau de tout ce qui se trouve sur les 9 cases autour de votre personnage, et un contour jaune indique la zone analysée dans le monde. Le tableau vous suit pendant vos déplacements.
 

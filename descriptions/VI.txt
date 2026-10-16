@@ -1,6 +1,8 @@
 [h2]Đây là gì[/h2]
 Tile Doctor là một công cụ phát triển và gỡ lỗi. Nó cho phép bạn xem những gì thật sự nằm trên các ô quanh nhân vật và sửa những ô bị lỗi: va chạm vô hình, tàn dư từ các mod đã gỡ hoặc bị lỗi, vật thể không thể nhặt hay sử dụng được nữa, v.v.
 
+Nếu bạn đang tìm một công cụ để gỡ lỗi vật phẩm bị lỗi bên trong thùng chứa, hãy xem thử [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url].
+
 [h2]Cách hoạt động[/h2]
 Nhấp chuột phải ở bất kỳ đâu và chọn Tile Doctor. Một cửa sổ mở ra với bảng liệt kê mọi thứ trên 9 ô quanh nhân vật, và một đường viền vàng hiển thị vùng được quét trong thế giới. Bảng sẽ cập nhật theo khi bạn di chuyển.
 

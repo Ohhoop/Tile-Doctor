@@ -1,6 +1,8 @@
 [h2]Mi ez[/h2]
 A Tile Doctor egy fejlesztői és hibakereső eszköz. Megmutatja, mi van valójában a karaktered körüli mezőkön, és lehetővé teszi a hibás mezők javítását: láthatatlan ütközések, eltávolított vagy hibás modok maradványai, olyan tárgyak, amelyeket már nem lehet felvenni vagy használni stb.
 
+Ha tárolókban lévő hibás tárgyak hibakereséséhez keresel eszközt, nézd meg az [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url] modot.
+
 [h2]Hogyan működik[/h2]
 Kattints jobb gombbal bárhol, és válaszd a Tile Doctor lehetőséget. Megnyílik egy ablak egy táblázattal mindenről, ami a karaktered körüli 9 mezőn található, egy sárga körvonal pedig a világban jelzi a vizsgált területet. A táblázat követ, ahogy mozogsz.
 

@@ -1,6 +1,8 @@
 [h2]Hvad det er[/h2]
 Tile Doctor er et udviklings- og fejlfindingsværktøj. Det lader dig se, hvad der virkelig ligger på felterne omkring din karakter, og reparere dem, der er gået i stykker: usynlige kollisioner, rester fra fjernede eller fejlbehæftede mods, objekter, der ikke længere kan samles op eller bruges, osv.
 
+Hvis du leder efter et værktøj til at fejlfinde ødelagte genstande i beholdere, så tjek [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url] ud.
+
 [h2]Sådan virker det[/h2]
 Højreklik hvor som helst, og vælg Tile Doctor. Et vindue åbner med en tabel over alt på de 9 felter omkring din karakter, og en gul kontur viser det scannede område i verdenen. Tabellen følger dig, når du bevæger dig.
 

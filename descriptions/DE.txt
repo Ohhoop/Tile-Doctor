@@ -1,6 +1,8 @@
 [h2]Was es ist[/h2]
 Tile Doctor ist ein Entwicklungs- und Debugging-Werkzeug. Damit siehst du, was wirklich auf den Feldern rund um deinen Charakter liegt, und kannst die kaputten reparieren: unsichtbare Kollisionen, Überreste entfernter oder fehlerhafter Mods, Objekte, die sich nicht mehr aufheben oder benutzen lassen, usw.
 
+Wenn du ein Werkzeug suchst, um kaputte Gegenstände in Behältern zu debuggen, schau dir [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url] an.
+
 [h2]So funktioniert es[/h2]
 Klicke irgendwo mit der rechten Maustaste und wähle Tile Doctor. Es öffnet sich ein Fenster mit einer Tabelle über alles auf den 9 Feldern rund um deinen Charakter, und ein gelber Umriss zeigt den gescannten Bereich in der Welt. Die Tabelle folgt dir, während du dich bewegst.
 

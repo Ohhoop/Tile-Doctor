@@ -1,6 +1,8 @@
 [h2]Vad det är[/h2]
 Tile Doctor är ett utvecklings- och felsökningsverktyg. Det låter dig se vad som verkligen finns på rutorna runt din karaktär och laga de som är trasiga: osynliga kollisioner, rester från borttagna eller buggiga mods, föremål som inte längre går att plocka upp eller använda, osv.
 
+Om du letar efter ett verktyg för att felsöka trasiga föremål i behållare, kolla in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url].
+
 [h2]Så fungerar det[/h2]
 Högerklicka var som helst och välj Tile Doctor. Ett fönster öppnas med en tabell över allt på de 9 rutorna runt din karaktär, och en gul kontur visar det skannade området i världen. Tabellen följer med dig när du rör dig.
 

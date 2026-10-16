@@ -1,6 +1,8 @@
 [h2]Co to je[/h2]
 Tile Doctor je nástroj pro vývoj a ladění. Umožňuje vám podívat se, co se skutečně nachází na dlaždicích kolem vaší postavy, a opravit ty, které jsou rozbité: neviditelné kolize, pozůstatky odebraných nebo chybných modů, objekty, které už nejde sebrat ani použít atd.
 
+Pokud hledáte nástroj pro ladění rozbitých předmětů v kontejnerech, podívejte se na [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url].
+
 [h2]Jak to funguje[/h2]
 Klikněte kamkoli pravým tlačítkem a zvolte Tile Doctor. Otevře se okno s tabulkou všeho, co leží na 9 dlaždicích kolem vaší postavy, a žlutý obrys ukazuje ve světě prohledávanou oblast. Tabulka vás při pohybu následuje.
 

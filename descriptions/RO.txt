@@ -1,6 +1,8 @@
 [h2]Ce este[/h2]
 Tile Doctor este un instrument de dezvoltare și depanare. Îți arată ce se află cu adevărat pe dalele din jurul personajului tău și îți permite să le repari pe cele stricate: coliziuni invizibile, resturi de la moduri eliminate sau defecte, obiecte care nu mai pot fi luate sau folosite, etc.
 
+Dacă ești în căutarea unui instrument pentru depanarea obiectelor stricate din containere, aruncă o privire la [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url].
+
 [h2]Cum funcționează[/h2]
 Dă clic dreapta oriunde și alege Tile Doctor. Se deschide o fereastră cu un tabel cu tot ce se află pe cele 9 dale din jurul personajului tău, iar un contur galben arată zona scanată în lume. Tabelul te urmează în timp ce te deplasezi.
 

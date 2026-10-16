@@ -1,6 +1,8 @@
 [h2]Nedir[/h2]
 Tile Doctor bir geliştirme ve hata ayıklama aracıdır. Karakterinizin etrafındaki karelerde gerçekte ne bulunduğunu görmenizi ve bozuk olanları düzeltmenizi sağlar: görünmez çarpışmalar, kaldırılmış veya hatalı modlardan kalan artıklar, artık alınamayan veya kullanılamayan nesneler vb.
 
+Kaplardaki bozuk eşyaları ayıklamak için bir araç arıyorsanız [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url]'a göz atın.
+
 [h2]Nasıl çalışır[/h2]
 Herhangi bir yere sağ tıklayın ve Tile Doctor'ı seçin. Karakterinizin etrafındaki 9 karede bulunan her şeyin tablosunu içeren bir pencere açılır ve sarı bir çerçeve dünyada taranan alanı gösterir. Tablo siz hareket ettikçe sizi takip eder.
 

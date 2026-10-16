@@ -1,6 +1,8 @@
 [h2]What it is[/h2]
 Tile Doctor is a development and debugging tool. It lets you look at what is really sitting on the tiles around your character, and fix the ones that are broken: invisible collisions, leftovers from removed/bugged mods, objects that cannot be picked up or used anymore, etc.
 
+If you are looking for a tool to debug broken items inside containers, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url].
+
 [h2]How it works[/h2]
 Right-click anywhere and choose Tile Doctor. A window opens with a table of everything on the 9 tiles around your character, and a yellow outline shows the scanned area in the world. The table follows you as you move.
 

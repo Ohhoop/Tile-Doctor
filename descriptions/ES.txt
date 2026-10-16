@@ -1,6 +1,8 @@
 [h2]Qué es[/h2]
 Tile Doctor es una herramienta de desarrollo y depuración. Te permite ver lo que hay realmente en las casillas alrededor de tu personaje y arreglar las que están rotas: colisiones invisibles, restos de mods eliminados o con errores, objetos que ya no se pueden coger ni usar, etc.
 
+Si buscas una herramienta para depurar objetos rotos dentro de contenedores, echa un vistazo a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url].
+
 [h2]Cómo funciona[/h2]
 Haz clic derecho en cualquier sitio y elige Tile Doctor. Se abre una ventana con una tabla de todo lo que hay en las 9 casillas alrededor de tu personaje, y un contorno amarillo muestra en el mundo la zona analizada. La tabla te sigue mientras te mueves.
 

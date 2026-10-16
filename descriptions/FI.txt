@@ -1,6 +1,8 @@
 [h2]Mikä se on[/h2]
 Tile Doctor on kehitys- ja vianetsintätyökalu. Sillä näet, mitä hahmosi ympärillä olevilla ruuduilla todella on, ja voit korjata rikkinäiset: näkymättömät törmäykset, poistettujen tai viallisten modien jäänteet sekä esineet, joita ei voi enää poimia tai käyttää jne.
 
+Jos etsit työkalua säiliöiden sisällä olevien rikkinäisten esineiden vianetsintään, tutustu modiin [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3820498836]Inventory Doctor[/url].
+
 [h2]Miten se toimii[/h2]
 Napsauta hiiren oikealla painikkeella missä tahansa ja valitse Tile Doctor. Avautuu ikkuna, jossa on taulukko kaikesta hahmosi ympärillä olevilla 9 ruudulla, ja keltainen ääriviiva näyttää skannatun alueen maailmassa. Taulukko seuraa sinua liikkuessasi.
 
