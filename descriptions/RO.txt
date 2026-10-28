@@ -25,6 +25,9 @@ Acesta este un instrument de depanare: ștergerea sau resetarea obiectelor nu po
 Evident, nu am putut testa fiecare scenariu în parte: jocul are o cantitate absurdă de dale, obiecte și iteme, și asta fără să mai vorbim de moduri. Dacă ceva nu se comportă cum ar trebui, o resetare care merge prost, un obiect care ar trebui semnalat și nu este, sau orice altceva, anunță-mă în secțiunea de comentarii și voi face tot posibilul să rezolv.
 
 [h2]Întrebări și răspunsuri[/h2]
+Q: Funcționează cu build-ul 42.22?
+A: Da. Funcționează cu 42.21 și 42.22.
+
 Q: Este sigur să îl adaug sau să îl scot în mijlocul unei salvări?
 A: Da. Tile Doctor nu salvează nimic în lumea ta: este gândit să fie adăugat, să repare dala coruptă și apoi să fie scos.
 

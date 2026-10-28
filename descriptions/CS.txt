@@ -25,6 +25,9 @@ Toto je ladicí nástroj: smazání nebo obnovení objektů nelze vrátit zpět.
 Samozřejmě jsem nemohl otestovat úplně každý scénář: v této hře je směšné množství dlaždic, objektů a předmětů, a to ani nemluvím o modech. Pokud se něco nechová podle očekávání, obnovení, které se nepovede, objekt, který by měl být označen a není, nebo cokoli jiného, dejte mi prosím vědět v komentářích a udělám, co bude v mých silách, abych to vyřešil.
 
 [h2]Otázky a odpovědi[/h2]
+Q: Funguje to s buildem 42.22?
+A: Ano. Funguje s verzemi 42.21 i 42.22.
+
 Q: Je bezpečné ho přidat nebo odebrat během rozehrané hry?
 A: Ano. Tile Doctor do tvého světa nic neukládá: je navržený tak, aby se přidal, opravil poškozenou dlaždici a zase odebral.
 

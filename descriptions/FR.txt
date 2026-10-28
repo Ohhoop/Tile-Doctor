@@ -25,6 +25,9 @@ Ceci est un outil de débogage : supprimer ou réinitialiser des objets est irr�
 Je n'ai évidemment pas pu tester tous les scénarios possibles : ce jeu compte un nombre ridicule de tuiles, d'objets et d'items, et c'est sans même parler des mods. Si quelque chose ne se comporte pas comme prévu, une réinitialisation qui tourne mal, un objet qui devrait être signalé et ne l'est pas, ou quoi que ce soit d'autre, faites-le-moi savoir dans les commentaires et je ferai de mon mieux pour le prendre en charge.
 
 [h2]Questions et réponses[/h2]
+Q : Est-ce que ça fonctionne avec la build 42.22 ?
+A : Oui. Ça fonctionne avec la 42.21 et la 42.22.
+
 Q : Est-ce que je peux l'ajouter ou le retirer en cours de partie ?
 A : Oui. Tile Doctor n'enregistre rien dans ton monde : il est conçu pour être ajouté, corriger la case corrompue, puis être retiré.
 

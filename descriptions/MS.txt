@@ -25,6 +25,9 @@ Ini ialah alat nyahpepijat: memadam atau menetapkan semula objek tidak boleh dib
 Sudah tentu saya tidak dapat menguji setiap senario: terdapat terlalu banyak tile, objek dan item dalam permainan ini, belum lagi mod. Jika sesuatu tidak berfungsi seperti yang dijangka, set semula yang tidak menjadi, objek yang sepatutnya ditanda tetapi tidak, atau apa sahaja, sila beritahu saya di ruangan komen dan saya akan cuba sedaya upaya untuk menanganinya.
 
 [h2]Soal Jawab[/h2]
+Q: Adakah ia berfungsi dengan build 42.22?
+A: Ya. Ia berfungsi dengan 42.21 dan 42.22.
+
 Q: Adakah selamat untuk menambah atau membuangnya di tengah simpanan?
 A: Ya. Tile Doctor tidak menyimpan apa-apa dalam dunia anda: ia direka untuk ditambah, membaiki petak yang rosak, kemudian dibuang.
 

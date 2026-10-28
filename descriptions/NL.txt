@@ -25,6 +25,9 @@ Dit is een debugtool: het verwijderen of resetten van objecten kan niet ongedaan
 Ik heb uiteraard niet elk denkbaar scenario kunnen testen: er zitten belachelijk veel tegels, objecten en items in dit spel, en dan hebben we het nog niet eens over mods. Als iets zich niet gedraagt zoals verwacht, een reset die misgaat, een object dat gemarkeerd zou moeten worden maar dat niet is, of iets anders, laat het me dan weten in de reacties en ik doe mijn best om het af te handelen.
 
 [h2]Vragen en antwoorden[/h2]
+Q: Werkt het met build 42.22?
+A: Ja. Het werkt met 42.21 en 42.22.
+
 Q: Kan ik het veilig toevoegen of verwijderen midden in een save?
 A: Ja. Tile Doctor slaat niets op in je wereld: het is gemaakt om toegevoegd te worden, de kapotte tegel te repareren en weer verwijderd te worden.
 

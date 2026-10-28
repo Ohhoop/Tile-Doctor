@@ -25,6 +25,9 @@ Bu bir hata ayıklama aracıdır: nesneleri silmek veya sıfırlamak geri alına
 Elbette her senaryoyu test edemedim: bu oyunda inanılmaz sayıda tile, nesne ve eşya var, modlardan bahsetmiyorum bile. Bir şey beklendiği gibi davranmazsa, ters giden bir sıfırlama, işaretlenmesi gerekirken işaretlenmeyen bir nesne ya da başka bir şey olursa, lütfen yorumlar bölümünde bana bildirin, ele almak için elimden geleni yapacağım.
 
 [h2]Soru ve Cevap[/h2]
+Q: 42.22 sürümüyle çalışıyor mu?
+A: Evet. 42.21 ve 42.22 ile çalışıyor.
+
 Q: Kayıt ortasında eklemek veya kaldırmak güvenli mi?
 A: Evet. Tile Doctor dünyana hiçbir şey kaydetmez: eklenmek, bozuk kareyi düzeltmek ve kaldırılmak için tasarlandı.
 

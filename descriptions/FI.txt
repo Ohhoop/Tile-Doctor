@@ -25,6 +25,9 @@ Tämä on vianetsintätyökalu: objektien poistamista tai nollaamista ei voi per
 En tietenkään pystynyt testaamaan jokaista mahdollista tilannetta: tässä pelissä on naurettava määrä ruutuja, objekteja ja esineitä, eikä modeista ole edes vielä puhuttu. Jos jokin ei toimi odotetusti, nollaus menee pieleen, objekti jää merkitsemättä vaikka pitäisi tai jotain muuta, kerro siitä kommenttiosiossa, niin teen parhaani sen käsittelemiseksi.
 
 [h2]Kysymyksiä ja vastauksia[/h2]
+Q: Toimiiko se buildissa 42.22?
+A: Kyllä. Se toimii versioissa 42.21 ja 42.22.
+
 Q: Voiko sen lisätä tai poistaa kesken tallennuksen?
 A: Kyllä. Tile Doctor ei tallenna mitään maailmaasi: se on tehty lisättäväksi, korjaamaan rikkinäinen ruutu ja poistettavaksi.
 

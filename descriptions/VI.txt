@@ -25,6 +25,9 @@ Các thao tác có thể thực hiện trên mỗi hàng:
 Tất nhiên tôi không thể thử mọi tình huống: trò chơi này có số lượng tile, vật thể và vật phẩm nhiều đến mức vô lý, chưa kể đến các mod. Nếu có gì đó không hoạt động như mong đợi, một lần đặt lại bị lỗi, một vật thể lẽ ra phải bị đánh dấu nhưng không, hay bất cứ điều gì khác, hãy cho tôi biết trong phần bình luận và tôi sẽ cố gắng hết sức để xử lý.
 
 [h2]Hỏi & Đáp[/h2]
+Q: Có chạy được với bản build 42.22 không?
+A: Có. Chạy được với cả 42.21 và 42.22.
+
 Q: Có an toàn khi thêm hoặc gỡ mod giữa chừng một bản lưu không?
 A: Có. Tile Doctor không lưu gì vào thế giới của bạn: mod được thiết kế để thêm vào, sửa ô bị hỏng rồi gỡ ra.
 

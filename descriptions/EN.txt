@@ -25,6 +25,9 @@ This is a debugging tool: deleting or resetting objects cannot be undone. Use it
 I was obviously not able to test every single scenario: there is a ridiculous amount of tiles, objects and items in this game, and that is without even talking about mods. If something does not behave as expected, a reset that goes wrong, an object that should be flagged and is not, or anything else, please let me know in the comment section and I will do my best to handle it.
 
 [h2]Q&A[/h2]
+Q: Does it work with build 42.22?
+A: Yes. It works with 42.21 and 42.22.
+
 Q: Is it safe to add or remove mid-save?
 A: Yes. Tile Doctor saves nothing in your world: it is designed to be added, fix the corrupted tile and be removed.
 

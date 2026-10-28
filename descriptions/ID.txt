@@ -25,6 +25,9 @@ Ini adalah alat debugging: menghapus atau mereset objek tidak bisa dibatalkan. G
 Tentu saja saya tidak bisa menguji setiap skenario: ada begitu banyak tile, objek, dan item di game ini, belum lagi mod. Jika ada yang tidak berjalan sesuai harapan, reset yang gagal, objek yang seharusnya ditandai tetapi tidak, atau hal lainnya, beri tahu saya di bagian komentar dan saya akan berusaha sebaik mungkin menanganinya.
 
 [h2]Tanya Jawab[/h2]
+Q: Apakah berfungsi di build 42.22?
+A: Ya. Berfungsi di 42.21 dan 42.22.
+
 Q: Apakah aman ditambahkan atau dihapus di tengah save?
 A: Ya. Tile Doctor tidak menyimpan apa pun di duniamu: mod ini dibuat untuk ditambahkan, memperbaiki tile yang rusak, lalu dihapus.
 

@@ -25,6 +25,9 @@ Questo è uno strumento di debug: eliminare o reimpostare oggetti non si può an
 Ovviamente non ho potuto testare ogni singolo scenario: in questo gioco c'è una quantità assurda di tile, oggetti e item, e senza nemmeno parlare dei mod. Se qualcosa non si comporta come previsto, un reset che va storto, un oggetto che dovrebbe essere segnalato e non lo è, o qualsiasi altra cosa, fammelo sapere nella sezione commenti e farò del mio meglio per gestirlo.
 
 [h2]Domande e risposte[/h2]
+Q: Funziona con la build 42.22?
+A: Sì. Funziona con la 42.21 e la 42.22.
+
 Q: È sicuro aggiungerlo o rimuoverlo a partita in corso?
 A: Sì. Tile Doctor non salva nulla nel tuo mondo: è pensato per essere aggiunto, riparare il tile corrotto ed essere rimosso.
 

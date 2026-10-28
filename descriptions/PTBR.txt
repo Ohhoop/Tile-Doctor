@@ -25,6 +25,9 @@ Esta é uma ferramenta de depuração: excluir ou redefinir objetos não pode se
 Obviamente não consegui testar todos os cenários possíveis: existe uma quantidade absurda de tiles, objetos e itens neste jogo, e isso sem nem falar dos mods. Se algo não se comportar como esperado, uma redefinição que dá errado, um objeto que deveria ser sinalizado e não é, ou qualquer outra coisa, me avise na seção de comentários e vou fazer o possível para resolver.
 
 [h2]Perguntas e respostas[/h2]
+Q: Funciona na build 42.22?
+A: Sim. Funciona na 42.21 e na 42.22.
+
 Q: É seguro adicionar ou remover no meio de um save?
 A: Sim. O Tile Doctor não salva nada no seu mundo: ele foi feito para ser adicionado, corrigir o tile corrompido e ser removido.
 

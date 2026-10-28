@@ -25,6 +25,9 @@ Dette er et fejlfindingsværktøj: sletning eller nulstilling af objekter kan ik
 Jeg har naturligvis ikke kunnet teste hvert eneste scenarie: der er en absurd mængde felter, objekter og genstande i dette spil, og det er uden overhovedet at tale om mods. Hvis noget ikke opfører sig som forventet, en nulstilling der går galt, et objekt der burde markeres og ikke gør det, eller noget helt tredje, så sig til i kommentarfeltet, så gør jeg mit bedste for at håndtere det.
 
 [h2]Spørgsmål og svar[/h2]
+Q: Virker det med build 42.22?
+A: Ja. Det virker med 42.21 og 42.22.
+
 Q: Er det sikkert at tilføje eller fjerne det midt i et save?
 A: Ja. Tile Doctor gemmer intet i din verden: det er lavet til at blive tilføjet, rette det ødelagte felt og blive fjernet igen.
 

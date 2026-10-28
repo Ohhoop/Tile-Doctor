@@ -25,6 +25,9 @@ Dette er et feilsøkingsverktøy: sletting eller tilbakestilling av objekter kan
 Jeg har naturligvis ikke kunnet teste hvert eneste scenario: det finnes en latterlig mengde ruter, objekter og gjenstander i dette spillet, og da har vi ikke engang snakket om mods. Hvis noe ikke oppfører seg som forventet, en tilbakestilling som går galt, et objekt som burde flagges og ikke blir det, eller noe annet, si gjerne fra i kommentarfeltet, så skal jeg gjøre mitt beste for å håndtere det.
 
 [h2]Spørsmål og svar[/h2]
+Q: Fungerer det med build 42.22?
+A: Ja. Det fungerer med 42.21 og 42.22.
+
 Q: Er det trygt å legge til eller fjerne den midt i et lagret spill?
 A: Ja. Tile Doctor lagrer ingenting i verdenen din: den er laget for å legges til, fikse den ødelagte ruten og fjernes igjen.
 

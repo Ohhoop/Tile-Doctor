@@ -25,6 +25,9 @@ Esta es una herramienta de depuración: eliminar o restablecer objetos no se pue
 Obviamente no pude probar cada escenario posible: este juego tiene una cantidad ridícula de tiles, objetos e ítems, y eso sin siquiera hablar de los mods. Si algo no se comporta como debería, un restablecimiento que sale mal, un objeto que debería marcarse y no se marca, o cualquier otra cosa, avísame en la sección de comentarios y haré lo posible por resolverlo.
 
 [h2]Preguntas y respuestas[/h2]
+Q: ¿Funciona con la build 42.22?
+A: Sí. Funciona con la 42.21 y la 42.22.
+
 Q: ¿Es seguro agregarlo o quitarlo en una partida empezada?
 A: Sí. Tile Doctor no guarda nada en tu mundo: está pensado para agregarlo, arreglar el tile corrupto y quitarlo.
 

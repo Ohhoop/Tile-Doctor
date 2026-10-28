@@ -25,6 +25,9 @@ To narzędzie do debugowania: usunięcia ani zresetowania obiektów nie można c
 Oczywiście nie byłem w stanie przetestować każdego scenariusza: w tej grze jest absurdalna liczba kafelków, obiektów i przedmiotów, i to nie wspominając o modach. Jeśli coś nie działa zgodnie z oczekiwaniami, reset, który pójdzie źle, obiekt, który powinien zostać oznaczony, a nie jest, czy cokolwiek innego, daj mi znać w komentarzach, a zrobię, co w mojej mocy, żeby to obsłużyć.
 
 [h2]Pytania i odpowiedzi[/h2]
+Q: Czy działa z buildem 42.22?
+A: Tak. Działa z wersjami 42.21 i 42.22.
+
 Q: Czy można go bezpiecznie dodać lub usunąć w trakcie zapisu gry?
 A: Tak. Tile Doctor nic nie zapisuje w twoim świecie: jest zaprojektowany, by go dodać, naprawić uszkodzone pole i usunąć.
 
